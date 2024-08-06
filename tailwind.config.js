@@ -6,11 +6,25 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				"cl-purple": "#9372A7",
-				"cl-green": "#58A89C",
-				"cl-blue": "#2F2FA2",
-				"cl-magenta": "#F64C72",
-				"cl-gray": "#6B6C89",
+				"sr-magenta-100": "#F64C72",
+				"sr-magenta-75": "#F87995",
+				"sr-magenta-50": "#FBA6B9",
+				"sr-magenta-25": "#FDD2DC",
+
+				"sr-blue-100": "#2F2FA2",
+				"sr-blue-75": "#6363B9",
+				"sr-blue-50": "#9797D1",
+				"sr-blue-25": "#CBCBE8",
+
+				"sr-emerald-100": "#58A89C",
+				"sr-emerald-75": "#82BEB5",
+				"sr-emerald-50": "#ACD4CE",
+				"sr-emerald-25": "#D5E9E6",
+
+				"sr-purple-100": "#9372A7",
+				"sr-purple-75": "#AE95BD",
+				"sr-purple-50": "#C9B9D3",
+				"sr-purple-25": "#E4DCE9",
 			},
 		},
 	},
