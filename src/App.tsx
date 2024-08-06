@@ -2,11 +2,11 @@ import { Header } from "./components/header";
 import { Footer } from "./components/footer";
 import { Tags } from "./components/tags";
 import { Dialog } from "./components/dialog";
-import { BranchArcs } from "./components/branch-arcs";
-import { Contacts } from "./components/contacts";
-import { BranchLegends } from "./components/branch-legends";
+import { BranchArcs } from "./components/radar/branch-arcs";
+import { ContactPoints } from "./components/radar/contact-points";
+import { BranchLegends } from "./components/radar/branch-legends";
+import { RangeLegend } from "./components/radar/range-legend";
 import { RADAR_HEIGHT, RADAR_WIDTH } from "./geometry/constants";
-import { RangeLegend } from "./components/range-legend";
 
 export function App() {
 	return (
@@ -19,17 +19,17 @@ export function App() {
 				</h1>
 				<div
 					className="relative self-center mt-20"
-					style={{ width: RADAR_WIDTH, height: RADAR_HEIGHT }}
+					style={{ width: RADAR_WIDTH + 10, height: RADAR_HEIGHT + 10 }}
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						viewBox={`0 0 ${RADAR_WIDTH} ${RADAR_HEIGHT}`}
+						viewBox={`0 0 ${RADAR_WIDTH + 10} ${RADAR_HEIGHT + 10}`}
 					>
 						<BranchArcs />
 					</svg>
 					<div className="absolute top-0 w-full h-full">
 						<RangeLegend />
-						<Contacts />
+						<ContactPoints />
 						<BranchLegends />
 					</div>
 				</div>

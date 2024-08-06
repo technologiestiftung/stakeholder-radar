@@ -1,5 +1,5 @@
-import { ranges } from "../data/ranges.ts";
-import { RADAR_WIDTH } from "../geometry/constants.ts";
+import { ranges } from "../../data/ranges";
+import { RADAR_WIDTH } from "../../geometry/constants";
 
 export function RangeLegend() {
 	return (

@@ -1,7 +1,7 @@
-import { branches } from "../data/branches";
-import { maxRadius, xOrigin, yOrigin } from "../geometry/constants";
-import { anglePerSlice } from "../geometry/variables";
-import { getCoordinatesForPercent } from "../geometry/geometry";
+import { branches } from "../../data/branches";
+import { maxRadius, xOrigin, yOrigin } from "../../geometry/constants";
+import { anglePerSlice } from "../../geometry/variables";
+import { getCoordinatesForPercent } from "../../geometry/geometry";
 
 const LEGEND_WIDTH = 250;
 
