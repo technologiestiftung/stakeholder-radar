@@ -3,13 +3,12 @@ import { RADAR_WIDTH } from "../../geometry/constants";
 
 export function RangeLegend() {
 	return (
-		<div className="absolute left-0 h-full" style={{ width: RADAR_WIDTH / 2 }}>
-			<div
-				className="text-white text-sm flex flex-row-reverse h-full items-center w-full gap-x-7 -mt-3 pr-16"
-				style={{ textShadow: "0px 0px 10px rgba(47, 47, 162, 0.63)" }}
-			>
-				{ranges.map((range) => (
-					<span key={range.name}>{range.name}</span>
+		<div className="absolute right-0 h-full" style={{ width: RADAR_WIDTH / 2 }}>
+			<div className="text-sm flex h-full items-center w-full -mt-5 pl-14">
+				{ranges.map((range, index) => (
+					<span key={range.name} className={`${index > 0 && "pl-11"}`}>
+						{range.name}
+					</span>
 				))}
 			</div>
 		</div>

@@ -6,3 +6,7 @@
   --tooltip-color: #FFF;
   --tooltip-text-color: #000;
 }
+
+.tooltip::before {
+  z-index: 100;
+}

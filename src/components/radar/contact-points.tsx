@@ -3,10 +3,13 @@ import { branches } from "../../data/branches";
 import { ranges } from "../../data/ranges";
 import { useSelectedContactStore } from "../../stores/selected-contact-store";
 import { useSelectedTagsStore } from "../../stores/selected-tags-store";
-import { anglePerSlice } from "../../geometry/variables";
+import {
+	anglePerSlicePercentage,
+	rangePercentageIncrement,
+	smallestRangePercentage,
+} from "../../geometry/variables";
 import { getCoordinatesForPercent } from "../../geometry/geometry";
-import { colors } from "../../colors";
-import { RADAR_WIDTH } from "../../geometry/constants";
+import { maxRadius } from "../../geometry/constants";
 
 const POINT_WIDTH = 16;
 const POINT_HEIGHT = 16;
@@ -21,12 +24,11 @@ export function ContactPoints() {
 
 	return (
 		<>
-			{contactCircles.map(({ x, y, border, title }, index) => (
+			{contactCircles.map(({ x, y, title }, index) => (
 				<div
 					key={title}
-					className="absolute drop-shadow-2xl rounded-full bg-white tooltip"
+					className="absolute drop-shadow-2xl rounded-full bg-white tooltip cursor-pointer"
 					style={{
-						border: `2px solid ${border}`,
 						top: `${y}px`,
 						left: `${x}px`,
 						width: `${POINT_WIDTH}px`,
@@ -54,18 +56,30 @@ function toContactCircle(contact: (typeof contacts)[0]) {
 	);
 	const rangeIndex = ranges.findIndex((range) => range.name === contact.range);
 
-	const radius =
-		((RADAR_WIDTH / 2) * 2.5) / 16 +
-		(((RADAR_WIDTH / 2) * 3) / 16) * (rangeIndex + 1);
-	const angle = branchIndex * anglePerSlice + anglePerSlice / 2;
-	const [x, y] = getCoordinatesForPercent(angle, radius);
+	const contactsInBranchInRange = contacts.filter(
+		(c) => c.branch === contact.branch && c.range === contact.range,
+	);
+	const amountOfEqualPartsBasedOnContactsInBranchInRange =
+		contactsInBranchInRange.length + 1;
+	const contactIndexInBranchInRange = contactsInBranchInRange.findIndex(
+		(c) => c.organisation === contact.organisation,
+	);
 
-	const border = colors[branchIndex % colors.length];
+	// prettier-ignore
+	const radius =
+		(smallestRangePercentage + rangePercentageIncrement * rangeIndex) * maxRadius
+		- ((rangeIndex === 0 ? smallestRangePercentage / 2 : rangePercentageIncrement / 2) * maxRadius)
+		+ (rangeIndex === 0 ? POINT_WIDTH : 0);
+
+	// prettier-ignore
+	const angle = branchIndex * anglePerSlicePercentage
+	+ (anglePerSlicePercentage / amountOfEqualPartsBasedOnContactsInBranchInRange) * (contactIndexInBranchInRange + 1);
+
+	const [x, y] = getCoordinatesForPercent(angle, radius);
 
 	return {
 		x: x - POINT_WIDTH / 2,
 		y: y - POINT_HEIGHT / 2,
-		border,
 		title: contact.organisation,
 	};
 }
