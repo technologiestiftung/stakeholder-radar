@@ -17,7 +17,7 @@ export function App() {
 
 			<main className="flex flex-col">
 				<h1 className="text-6xl font-semibold pt-14 pl-28 leading-10">
-					Stakeholder Radar
+					Post-COVID Stakeholder-Map
 				</h1>
 				<div
 					className="relative self-center mt-20"

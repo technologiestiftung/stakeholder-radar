@@ -67,23 +67,22 @@ export function SplashScreen() {
 					CityLAB
 				</div>
 				<h1 className="text-4xl md:text-[56px] font-semibold leading-10 pb-5 md:pb-7">
-					Stakeholder Radar
+					Post-COVID Stakeholder Radar
 				</h1>
-				<p className="text-lg md:text-[22px] md:leading-8 pb-4">
-					Das Stakeholder Radar visualisiert verschiedene durch das CityLAB
-					identifizierten Akteure, dessen Arbeit sich auf die Bereitstellung und
-					Verwertung von Umweltdaten und ein positives Stadtklima fokussiert.
-					Dabei wurden Akteure aus insgesamt vier verschiedenen Bereichen
-					identifiziert, die sicher Anhand ihres geografischen Wirkungsgrads und
-					ihren Schwerpunktthemen unterscheiden.
-				</p>
-				<p className="text-lg md:text-[22px] md:leading-8">
-					Einzelne Datenpunkte können mit Hilfe von Tags gefiltert und in der
-					Listenansicht übersichtlich dargestellt werden. Mit Klick auf einen
-					Punkt, kannst Du mehr über die einzelnen Akteure erfahren. Das Radar
-					ist ein Teilergebnis des Fokusthema ,,Umweltdaten und Stadtklima“ des
-					CityLAB. Es handelt sich hierbei um einen Prototypen, dessen Code auf
-					GitHub gefunden und gerne verwendet werden darf.
+				<p className="text-lg md:text-[24px] md:leading-8">
+					Die Stakeholder-Map visualisiert verschiedene durch die
+					Technologiestiftung Berlin im Rahmen der Challenge
+					„Post-COVID-Datenmodell“ identifizierte Akteur:innen die mit dem
+					konzipierten Datenmodell in Verbindung stehen. Dabei wurden
+					Akteur:innen aus insgesamt vier verschiedenen Bereichen identifiziert,
+					die sich Anhand ihres Wirkungsgrads auf das Datenmodell und ihren
+					Schwerpunktthemen unterscheiden. Einzelne Datenpunkte können mit Hilfe
+					von Tags gefiltert und in der Listenansicht übersichtlich dargestellt
+					werden. Mit Klick auf einen Punkt, können mehr Informationen über die
+					einzelnen Stakeholder abgerufen werden. Die Stakeholder-Map ist eine
+					Abwandlung des Stakeholder-Radars, des CityLAB Berlins. Es handelt
+					sich hierbei um ein Open Source Projekt dessen Code auf GitHub
+					gefunden und gerne verwendet werden darf.
 				</p>
 			</div>
 			<div className="flex flex-row flex-wrap gap-2 p-8 md:p-12 md:pt-0 pt-0 text-md md:text-lg justify-between text-sr-blue-100">

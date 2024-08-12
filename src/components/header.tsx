@@ -5,9 +5,9 @@ export function Header() {
 	return (
 		<header className="pt-16 pl-28 flex flex-row justify-between">
 			<img
-				src="https://logos.citylab-berlin.org/logo-citylab-color.svg"
-				alt="CityLAB Berlin Logo"
-				className="w-48"
+				src="/images/PCDM-Logo-20240802.svg"
+				alt="Post-COVID Datenmodell Logo"
+				className="w-24"
 			/>
 			<div className="flex flex-row  pr-28 gap-6">
 				<a

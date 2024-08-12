@@ -1,14 +1,14 @@
 export const ranges = [
 	{
-		name: "Bezirk",
+		name: "Datenmodell",
 	},
 	{
-		name: "Berlin",
+		name: "Allianz",
 	},
 	{
-		name: "DE",
+		name: "Expertise",
 	},
 	{
-		name: "Global",
+		name: "Synergien",
 	},
 ];

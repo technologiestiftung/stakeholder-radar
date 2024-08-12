@@ -44,7 +44,7 @@ function toContact(record) {
 	return {
 		organisation: record["﻿Organisation"],
 		branch: record["Branche"],
-		range: record["Wirkungsgrad"],
+		range: record["Wirkungsgrad (Entwickler:innen, Mitstreiter:innen, Expert:innen, mögliche Partner:innen)"],
 		website: record["Website"],
 		tags: toTags(record["Tags"]),
 		description: record["Beschreibung (short description)"],
@@ -76,8 +76,8 @@ function checkAndWarnForEmptyFields(contacts) {
 }
 
 function toTags(tags) {
-	return tags
-		.split(",")
+	const tagsArray = tags?.split(",") ?? [];
+	return tagsArray
 		.map((tag) => tag.trim())
 		.filter((tag) => tag !== "");
 }

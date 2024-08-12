@@ -1,22 +1,10 @@
 export function Footer() {
 	const logos = [
 		{
-			src: "https://logos.citylab-berlin.org/logo-citylab-color.svg",
-			alt: "CityLAB Berlin Logo",
-			className: "w-44",
-			label: "",
-		},
-		{
 			src: "https://logos.citylab-berlin.org/logo-technologiestiftung-berlin-de.svg",
 			alt: "Technologiestiftung Berlin Logo",
 			className: "w-32",
 			label: "Ein Projekt der",
-		},
-		{
-			src: "https://logos.citylab-berlin.org/logo-senatskanzlei-buergermeister-horizontal.svg",
-			alt: "Senatzkanzlei Berlin Logo",
-			className: "w-56",
-			label: "Gefördert durch",
 		},
 	];
 
