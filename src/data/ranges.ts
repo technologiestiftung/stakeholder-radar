@@ -1,6 +1,6 @@
 export const ranges = [
 	{
-		name: "Bezirke",
+		name: "Bezirk",
 	},
 	{
 		name: "Berlin",

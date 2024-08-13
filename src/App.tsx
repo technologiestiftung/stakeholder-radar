@@ -10,7 +10,7 @@ import { RADAR_HEIGHT, RADAR_WIDTH } from "./geometry/constants";
 
 export function App() {
 	return (
-		<div className="flex flex-col text-blue-grey">
+		<div className="flex flex-col text-sr-blue-grey">
 			<Header />
 
 			<main className="flex flex-col">

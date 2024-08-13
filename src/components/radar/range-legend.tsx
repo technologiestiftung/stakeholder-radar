@@ -8,7 +8,7 @@ export function RangeLegend() {
 				{ranges.map((range, index) => (
 					<span
 						key={range.name}
-						className={`${index > 0 && "pl-11"} text-lighter-black font-[Inter]`}
+						className={`${index > 0 && "pl-11"} text-sr-lighter-black`}
 					>
 						{range.name}
 					</span>

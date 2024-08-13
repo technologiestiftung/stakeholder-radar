@@ -11,8 +11,7 @@ import {
 import { getCoordinatesForPercent } from "../../geometry/geometry";
 import { maxRadius } from "../../geometry/constants";
 
-const POINT_WIDTH = 16;
-const POINT_HEIGHT = 16;
+const POINT_RADIUS = 24;
 
 export function ContactPoints() {
 	const { setSelectedContact } = useSelectedContactStore();
@@ -24,19 +23,23 @@ export function ContactPoints() {
 
 	return (
 		<>
-			{contactCircles.map(({ x, y, title }, index) => (
+			{contactCircles.map(({ x, y, title, contactIndex }) => (
 				<div
 					key={title}
-					className="absolute drop-shadow-2xl rounded-full bg-white tooltip cursor-pointer"
+					className="text-xs absolute drop-shadow-2xl rounded-full bg-white tooltip cursor-pointer"
 					style={{
 						top: `${y}px`,
 						left: `${x}px`,
-						width: `${POINT_WIDTH}px`,
-						height: `${POINT_HEIGHT}px`,
+						width: `${POINT_RADIUS}px`,
+						height: `${POINT_RADIUS}px`,
 					}}
 					data-tip={title}
-					onClick={() => setSelectedContact(contacts[index])}
-				></div>
+					onClick={() => setSelectedContact(contacts[contactIndex])}
+				>
+					<div className="flex w-full h-full justify-center items-center lining-nums pb-0.5">
+						{contactIndex + 1}
+					</div>
+				</div>
 			))}
 		</>
 	);
@@ -55,6 +58,9 @@ function toContactCircle(contact: (typeof contacts)[0]) {
 		(branch) => branch.name === contact.branch,
 	);
 	const rangeIndex = ranges.findIndex((range) => range.name === contact.range);
+	const contactIndex = contacts.findIndex(
+		({ organisation }) => organisation === contact.organisation,
+	);
 
 	const contactsInBranchInRange = contacts.filter(
 		(c) => c.branch === contact.branch && c.range === contact.range,
@@ -69,7 +75,7 @@ function toContactCircle(contact: (typeof contacts)[0]) {
 	const radius =
 		(smallestRangePercentage + rangePercentageIncrement * rangeIndex) * maxRadius
 		- ((rangeIndex === 0 ? smallestRangePercentage / 2 : rangePercentageIncrement / 2) * maxRadius)
-		+ (rangeIndex === 0 ? POINT_WIDTH : 0);
+		+ (rangeIndex === 0 ? POINT_RADIUS : 0);
 
 	// prettier-ignore
 	const angle = branchIndex * anglePerSlicePercentage
@@ -78,8 +84,9 @@ function toContactCircle(contact: (typeof contacts)[0]) {
 	const [x, y] = getCoordinatesForPercent(angle, radius);
 
 	return {
-		x: x - POINT_WIDTH / 2,
-		y: y - POINT_HEIGHT / 2,
+		x: x - POINT_RADIUS / 2,
+		y: y - POINT_RADIUS / 2,
 		title: contact.organisation,
+		contactIndex,
 	};
 }
