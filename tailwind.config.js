@@ -25,6 +25,9 @@ export default {
 				"sr-purple-75": "#AE95BD",
 				"sr-purple-50": "#C9B9D3",
 				"sr-purple-25": "#E4DCE9",
+
+				"sr-list-gray": "#9899AD",
+				"sr-blue-gray": "#393A60",
 			},
 		},
 	},

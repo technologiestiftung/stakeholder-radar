@@ -7,10 +7,11 @@ import { ContactPoints } from "./components/radar/contact-points";
 import { BranchLegends } from "./components/radar/branch-legends";
 import { RangeLegend } from "./components/radar/range-legend";
 import { RADAR_HEIGHT, RADAR_WIDTH } from "./geometry/constants";
+import { List } from "./components/list/list";
 
 export function App() {
 	return (
-		<div className="flex flex-col">
+		<div className="flex flex-col text-sr-blue-gray">
 			<Header />
 
 			<main className="flex flex-col">
@@ -35,6 +36,8 @@ export function App() {
 				</div>
 				<Tags />
 				<Dialog />
+
+				<List />
 			</main>
 
 			<Footer />
