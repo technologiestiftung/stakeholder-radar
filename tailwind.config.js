@@ -6,7 +6,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ["National", "Inter", "sans-serif"],
+				sans: ["National", "sans-serif"],
 			},
 			colors: {
 				"sr-magenta-100": "#F64C72",
@@ -31,6 +31,7 @@ export default {
 
 				"sr-blue-grey": "#393A60",
 				"sr-lighter-black": "#131313",
+				"sr-darker-purple": "#5F61A0",
 			},
 		},
 	},

@@ -8,11 +8,11 @@
 }
 
 @font-face {
-  font-family: "Inter";
+  font-family: "National";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-display: swap;
-  src: url("/fonts/Inter-Regular.woff2");
+  src: url("/fonts/National-Book.woff2");
 }
 
 @font-face {
