@@ -10,11 +10,11 @@ import { RADAR_HEIGHT, RADAR_WIDTH } from "./geometry/constants";
 
 export function App() {
 	return (
-		<div className="flex flex-col">
+		<div className="flex flex-col text-blue-grey">
 			<Header />
 
 			<main className="flex flex-col">
-				<h1 className="text-4xl font-semibold pt-14 pl-28">
+				<h1 className="text-6xl font-semibold pt-14 pl-28 leading-10">
 					Stakeholder Radar
 				</h1>
 				<div
