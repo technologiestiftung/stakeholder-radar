@@ -13,7 +13,10 @@ export const List: React.FC = () => {
 	);
 
 	return (
-		<div className="flex flex-col w-full gap-12 justify-between px-12 my-12">
+		<div
+			id="listView"
+			className="flex flex-col w-full gap-12 justify-between px-12 my-12"
+		>
 			{branches.map((branch, branchIndex) => (
 				<div key={branch.name} className={`flex flex-col w-full`}>
 					<div
