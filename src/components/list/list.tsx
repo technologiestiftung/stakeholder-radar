@@ -1,5 +1,5 @@
 /* eslint-disable no-nested-ternary */
-import React from "react";
+import React, { useState } from "react";
 import { branches } from "../../data/branches";
 import { ranges } from "../../data/ranges";
 import { contacts } from "../../data/contacts";
@@ -7,8 +7,12 @@ import { borderColors, tagColors, iconColors } from "./list-colors";
 import { PlusIcon } from "../icons/plus-icon";
 import { MinusIcon } from "../icons/minus-icon";
 
+const findContactsIndex = (contact: object) => {
+	return contacts.findIndex((value) => value === contact) + 1;
+};
+
 export const List: React.FC = () => {
-	const [isExpanded, setIsExpanded] = React.useState<boolean[]>(
+	const [isExpanded, setIsExpanded] = useState<boolean[]>(
 		branches.map(() => true),
 	);
 
@@ -40,7 +44,7 @@ export const List: React.FC = () => {
 						<div className={`flex flex-col justify-between lg:flex-row gap-9`}>
 							{ranges.map((range, rangeIndex) => (
 								<ol
-									className=" w-full flex flex-col pt-4 list-decimal list-inside lg:w-1/4"
+									className=" w-full flex flex-col pt-4 lg:w-1/4"
 									key={range.name}
 								>
 									<div
@@ -58,10 +62,13 @@ export const List: React.FC = () => {
 										.map((contact, contactIndex) => (
 											<li
 												key={contact.organisation}
-												className={`font-medium  border-sr-list-gray px-2 py-3 
+												className={`font-medium border-sr-list-gray px-2 py-3 flex flex-row 
                                                 ${contactIndex === 0 ? "border-none" : "border-t"}`}
 											>
-												{contact.organisation}
+												<div className="min-w-9">
+													{findContactsIndex(contact)}
+												</div>
+												<div>{contact.organisation}</div>
 											</li>
 										))}
 								</ol>
@@ -73,10 +80,3 @@ export const List: React.FC = () => {
 		</div>
 	);
 };
-
-// <ul>
-// 	{items.map((item) => (
-// 		<li key={item.id}>{item.text}</li>
-// 	))}
-// 	hi
-// </ul>
