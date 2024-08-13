@@ -7,6 +7,50 @@
   --tooltip-text-color: #000;
 }
 
-.tooltip::before {
-  z-index: 100;
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/Inter-Regular.woff2");
+}
+
+@font-face {
+  font-family: "National";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/National-Regular.woff2");
+}
+
+@font-face {
+  font-family: "National";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/National-Medium.woff2");
+}
+
+@font-face {
+  font-family: "National";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/National-Semibold.woff2");
+}
+
+@font-face {
+  font-family: "National";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/National-Bold.woff2");
+}
+
+@font-face {
+  font-family: "National";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/National-Extrabold.woff2");
 }
