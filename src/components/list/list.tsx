@@ -8,7 +8,7 @@ import { PlusIcon } from "../icons/plus-icon";
 import { MinusIcon } from "../icons/minus-icon";
 
 const findContactsIndex = (contact: object) => {
-	return contacts.findIndex((value) => value === contact) + 1;
+	return contacts.findIndex((index) => index === contact) + 1;
 };
 
 export const List: React.FC = () => {
