@@ -21,3 +21,10 @@ export const tagColors = [
 	],
 	["bg-sr-blue-100", "bg-sr-blue-75", "bg-sr-blue-50", "bg-sr-blue-25"],
 ];
+
+export const iconColors = [
+	"text-sr-magenta-100",
+	"text-sr-purple-100",
+	"text-sr-emerald-100",
+	"text-sr-blue-100",
+];
