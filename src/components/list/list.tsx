@@ -59,7 +59,7 @@ export const List: React.FC = () => {
 											<li
 												key={contact.organisation}
 												className={`font-medium  border-sr-list-gray px-2 py-3 
-                                                ${contactIndex === 0 ? "border-b" : contactIndex === contacts.length - 2 ? "border-red-500 border-t" : "border-y"}`}
+                                                ${contactIndex === 0 ? "border-none" : "border-t"}`}
 											>
 												{contact.organisation}
 											</li>
