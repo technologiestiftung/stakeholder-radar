@@ -3,32 +3,7 @@ import React from "react";
 import { branches } from "../../data/branches";
 import { ranges } from "../../data/ranges";
 import { contacts } from "../../data/contacts";
-
-const borderColors = [
-	"border-b-sr-magenta-100",
-	"border-b-sr-purple-100",
-	"border-b-sr-emerald-100",
-	"border-b-sr-blue-100",
-];
-
-const tagColors = [
-	"bg-sr-magenta-100",
-	"bg-sr-purple-100",
-	"bg-sr-emerald-100",
-	"bg-sr-blue-100",
-	"bg-sr-magenta-75",
-	"bg-sr-purple-75",
-	"bg-sr-emerald-75",
-	"bg-sr-blue-75",
-	"bg-sr-magenta-50",
-	"bg-sr-purple-50",
-	"bg-sr-emerald-50",
-	"bg-sr-blue-50",
-	"bg-sr-magenta-25",
-	"bg-sr-purple-25",
-	"bg-sr-emerald-25",
-	"bg-sr-blue-25",
-];
+import { borderColors, tagColors } from "./list-colors";
 
 export const List: React.FC = () => {
 	return (
@@ -47,8 +22,8 @@ export const List: React.FC = () => {
 								key={range.name}
 							>
 								<div
-									className={`rounded-full w-fit px-4 py-3 ${tagColors[branchIndex]}
-                                    ${branchIndex === 3 ? "text-white" : ""}`}
+									className={`rounded-full w-fit px-4 py-3 mb-4 ${tagColors[branchIndex][rangeIndex]}
+                                    ${branchIndex === 3 ? "text-white" : "text-sr-black"}`}
 								>
 									{range.name}
 								</div>

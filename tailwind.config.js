@@ -28,6 +28,7 @@ export default {
 
 				"sr-list-gray": "#9899AD",
 				"sr-blue-gray": "#393A60",
+				"sr-black": "#131313",
 			},
 		},
 	},
