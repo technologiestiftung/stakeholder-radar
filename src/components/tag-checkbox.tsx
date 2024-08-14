@@ -1,7 +1,10 @@
 import { useSelectedTagsStore } from "../stores/selected-tags-store";
+import { XIcon } from "./icons/x-icon";
 
 export function TagCheckbox({ tag }: { tag: string }) {
 	const { selectedTags, toggleTagSelection } = useSelectedTagsStore();
+
+	const isChecked = selectedTags.includes(tag);
 
 	return (
 		<label
@@ -13,14 +16,17 @@ export function TagCheckbox({ tag }: { tag: string }) {
 			bg-sr-blue-grey bg-opacity-5 border-blue-grey border-opacity-5 hover:bg-opacity-0"
 			onClick={() => toggleTagSelection(tag)}
 		>
-			{tag}
-			<input
-				className="appearance-none"
-				type="checkbox"
-				checked={selectedTags.includes(tag)}
-				onChange={() => toggleTagSelection(tag)}
-				id={tag}
-			/>
+			<div className="flex items-center">
+				{tag}
+				{isChecked && <XIcon className={"size-5 ml-2"} />}
+				<input
+					className="appearance-none"
+					type="checkbox"
+					checked={isChecked}
+					onChange={() => toggleTagSelection(tag)}
+					id={tag}
+				/>
+			</div>
 		</label>
 	);
 }
