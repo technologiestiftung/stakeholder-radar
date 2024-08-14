@@ -11,7 +11,7 @@ import {
 import { getCoordinatesForPercent } from "../../geometry/geometry";
 import { maxRadius } from "../../geometry/constants";
 
-const POINT_RADIUS = 24;
+const POINT_RADIUS = 20;
 
 export function ContactPoints() {
 	const { setSelectedContact } = useSelectedContactStore();
@@ -71,17 +71,16 @@ function toContactCircle(contact: (typeof contacts)[0]) {
 		(c) => c.organisation === contact.organisation,
 	);
 
-	// prettier-ignore
-	const radius =
-		(smallestRangePercentage + rangePercentageIncrement * rangeIndex) * maxRadius
-		- ((rangeIndex === 0 ? smallestRangePercentage / 2 : rangePercentageIncrement / 2) * maxRadius)
-		+ (rangeIndex === 0 ? POINT_RADIUS : 0);
+	const radius = getRadiusForContact({
+		rangeIndex,
+		contactIndexInBranchInRange,
+	});
 
 	// prettier-ignore
-	const angle = branchIndex * anglePerSlicePercentage
-	+ (anglePerSlicePercentage / amountOfEqualPartsBasedOnContactsInBranchInRange) * (contactIndexInBranchInRange + 1);
+	const anglePercentage = branchIndex * anglePerSlicePercentage
+	+ (anglePerSlicePercentage / amountOfEqualPartsBasedOnContactsInBranchInRange) * (contactIndexInBranchInRange + 1)
 
-	const [x, y] = getCoordinatesForPercent(angle, radius);
+	const [x, y] = getCoordinatesForPercent(anglePercentage, radius);
 
 	return {
 		x: x - POINT_RADIUS / 2,
@@ -89,4 +88,27 @@ function toContactCircle(contact: (typeof contacts)[0]) {
 		title: contact.organisation,
 		contactIndex,
 	};
+}
+
+function getRadiusForContact({
+	rangeIndex,
+	contactIndexInBranchInRange,
+}: {
+	rangeIndex: number;
+	contactIndexInBranchInRange: number;
+}) {
+	// prettier-ignore
+	const maxRadiusForRange = (smallestRangePercentage + rangePercentageIncrement * rangeIndex) * maxRadius;
+	// prettier-ignore
+	const rangeIndexOffset = (rangeIndex === 0 ? smallestRangePercentage / 2 : rangePercentageIncrement / 2) * maxRadius
+	const middleOfRange = maxRadiusForRange - rangeIndexOffset;
+
+	const positiveOrNegativeOffset = contactIndexInBranchInRange % 2 ? -1 : 1;
+	const pointOffset = rangeIndex === 0 ? POINT_RADIUS * 0.5 : POINT_RADIUS;
+	const closeToCenterOffset = rangeIndex === 0 ? POINT_RADIUS : 0;
+
+	// prettier-ignore
+	const randomOffset = positiveOrNegativeOffset * Math.abs(Math.sin(contactIndexInBranchInRange)) * pointOffset + closeToCenterOffset
+
+	return middleOfRange + randomOffset;
 }

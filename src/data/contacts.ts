@@ -544,7 +544,7 @@ export const contacts = [
 	},
 	{
 		organisation: "International Climate Initiative (IKI)",
-		branch: "Verwaltungsnahe Akteure",
+		branch: "Verwaltung",
 		range: "Global",
 		website: "https://www.international-climate-initiative.com/en/",
 		tags: ["funding", "climate change mitigation", "conservation"],
@@ -553,7 +553,7 @@ export const contacts = [
 	},
 	{
 		organisation: "Cities Collaboratory",
-		branch: "Verwaltungsnahe Akteure",
+		branch: "Verwaltung",
 		range: "Global",
 		website: "https://www.citiescollaboratory.org/",
 		tags: ["climate change mitigation", "innovation", "sustainability"],
@@ -648,7 +648,7 @@ export const contacts = [
 	// },
 	{
 		organisation: "Bundesverband Solarwirtschaft e.V.",
-		branch: "Verwaltungsnahe Akteure",
+		branch: "Verwaltung",
 		range: "DE",
 		website: "https://www.solarwirtschaft.de/",
 		tags: ["climate change mitigation", "sustainability"],
