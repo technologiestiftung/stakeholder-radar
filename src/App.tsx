@@ -7,6 +7,7 @@ import { ContactPoints } from "./components/radar/contact-points";
 import { BranchLegends } from "./components/radar/branch-legends";
 import { RangeLegend } from "./components/radar/range-legend";
 import { RADAR_HEIGHT, RADAR_WIDTH } from "./geometry/constants";
+import { List } from "./components/list/list";
 
 export function App() {
 	return (
@@ -35,6 +36,8 @@ export function App() {
 				</div>
 				<Tags />
 				<Dialog />
+
+				<List />
 			</main>
 
 			<Footer />
