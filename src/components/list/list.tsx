@@ -49,7 +49,7 @@ export const List: React.FC = () => {
 								>
 									<div
 										className={`rounded-full w-fit px-4 py-3 mb-4 ${tagColors[branchIndex][rangeIndex]}
-                                        ${branchIndex === 3 ? "text-white" : "text-sr-black"}`}
+                                        ${branchIndex === 3 ? "text-white" : "text-sr-lighter-black"}`}
 									>
 										{range.name}
 									</div>
@@ -62,7 +62,7 @@ export const List: React.FC = () => {
 										.map((contact, contactIndex) => (
 											<li
 												key={contact.organisation}
-												className={`font-medium border-sr-list-gray px-2 py-3 flex flex-row 
+												className={`font-medium border-sr-light-grey px-2 py-3 flex flex-row 
                                                 ${contactIndex === 0 ? "border-none" : "border-t"}`}
 											>
 												<div className="min-w-9">
