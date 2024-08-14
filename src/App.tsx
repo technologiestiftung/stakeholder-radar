@@ -8,6 +8,7 @@ import { BranchLegends } from "./components/radar/branch-legends";
 import { RangeLegend } from "./components/radar/range-legend";
 import { RADAR_HEIGHT, RADAR_WIDTH } from "./geometry/constants";
 import { List } from "./components/list/list";
+import { SplashScreen } from "./components/splash-screen";
 
 export function App() {
 	return (
@@ -38,6 +39,7 @@ export function App() {
 				<Dialog />
 
 				<List />
+				<SplashScreen />
 			</main>
 
 			<Footer />
