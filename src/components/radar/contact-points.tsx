@@ -17,43 +17,43 @@ export function ContactPoints() {
 	const { setSelectedContact } = useSelectedContactStore();
 	const { selectedTags } = useSelectedTagsStore();
 
-	const contactCircles = contacts
-		.filter((contact) => isTagSelected(contact, selectedTags))
-		.map(toContactCircle);
+	const contactCircles = contacts.map((contact) =>
+		toContactCircle(contact, selectedTags),
+	);
 
 	return (
 		<>
-			{contactCircles.map(({ x, y, title, contactIndex }) => (
-				<div
-					key={title}
-					className="text-xs absolute drop-shadow-2xl rounded-full bg-white tooltip cursor-pointer"
-					style={{
-						top: `${y}px`,
-						left: `${x}px`,
-						width: `${POINT_RADIUS}px`,
-						height: `${POINT_RADIUS}px`,
-					}}
-					data-tip={title}
-					onClick={() => setSelectedContact(contacts[contactIndex])}
-				>
-					<div className="flex w-full h-full justify-center items-center lining-nums pb-0.5">
-						{contactIndex + 1}
+			{contactCircles.map(
+				({ x, y, title, contactIndex, matchesSelectedTags }) => (
+					<div
+						key={title}
+						className="absolute drop-shadow-2xl tooltip cursor-pointer"
+						style={{
+							top: `${y}px`,
+							left: `${x}px`,
+							width: `${POINT_RADIUS}px`,
+							height: `${POINT_RADIUS}px`,
+						}}
+						data-tip={title}
+						onClick={() => setSelectedContact(contacts[contactIndex])}
+					>
+						<div
+							className="text-xs w-full rounded-full bg-white flex h-full justify-center items-center lining-nums pb-0.5"
+							style={{ opacity: matchesSelectedTags ? 1 : 0.3 }}
+						>
+							{contactIndex + 1}
+						</div>
 					</div>
-				</div>
-			))}
+				),
+			)}
 		</>
 	);
 }
 
-function isTagSelected(contact: (typeof contacts)[0], selectedTags: string[]) {
-	if (selectedTags.length === 0) {
-		return true;
-	}
-
-	return selectedTags.every((tag) => contact.tags.includes(tag));
-}
-
-function toContactCircle(contact: (typeof contacts)[0]) {
+function toContactCircle(
+	contact: (typeof contacts)[0],
+	selectedTags: string[],
+) {
 	const branchIndex = branches.findIndex(
 		(branch) => branch.name === contact.branch,
 	);
@@ -87,6 +87,7 @@ function toContactCircle(contact: (typeof contacts)[0]) {
 		y: y - POINT_RADIUS / 2,
 		title: contact.organisation,
 		contactIndex,
+		matchesSelectedTags: _matchesSelectedTags(contact, selectedTags),
 	};
 }
 
@@ -111,4 +112,15 @@ function getRadiusForContact({
 	const randomOffset = positiveOrNegativeOffset * Math.abs(Math.sin(contactIndexInBranchInRange)) * pointOffset + closeToCenterOffset
 
 	return middleOfRange + randomOffset;
+}
+
+function _matchesSelectedTags(
+	contact: (typeof contacts)[0],
+	selectedTags: string[],
+) {
+	if (selectedTags.length === 0) {
+		return true;
+	}
+
+	return selectedTags.every((tag) => contact.tags.includes(tag));
 }
