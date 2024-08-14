@@ -5,6 +5,9 @@ export default {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		extend: {
+			fontFamily: {
+				sans: ["National", "sans-serif"],
+			},
 			colors: {
 				"sr-magenta-100": "#F64C72",
 				"sr-magenta-75": "#F87995",
@@ -26,9 +29,10 @@ export default {
 				"sr-purple-50": "#C9B9D3",
 				"sr-purple-25": "#E4DCE9",
 
-				"sr-list-gray": "#9899AD",
-				"sr-blue-gray": "#393A60",
-				"sr-black": "#131313",
+				"sr-light-grey": "#9899AD",
+				"sr-blue-grey": "#393A60",
+				"sr-lighter-black": "#131313",
+				"sr-darker-purple": "#5F61A0",
 			},
 		},
 	},
