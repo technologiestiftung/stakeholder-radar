@@ -569,20 +569,20 @@ export const contacts = [
 		description:
 			"Greenbuzz enables leaders in sustainability to network, meet, share ideas, and learn from each other. They host monthly gatherings and talks with industry leaders to foster change toward sustainability.",
 	},
-	{
-		organisation: "Berlin 21",
-		branch: "",
-		range: "Berlin",
-		website: "https://berlin21.net/",
-		tags: [
-			"sustainability",
-			"climate change mitigation",
-			"urban redevelopment",
-			"advocacy",
-		],
-		description:
-			"They are tasked to promote the sustainable development of Berlin according to the Berlin Local Agenda 21. They implement projects to provide impetus to Berlin's sustainable growth for the future in cooperation with various other initiatives and associations.",
-	},
+	// {
+	// 	organisation: "Berlin 21",
+	// 	branch: "",
+	// 	range: "Berlin",
+	// 	website: "https://berlin21.net/",
+	// 	tags: [
+	// 		"sustainability",
+	// 		"climate change mitigation",
+	// 		"urban redevelopment",
+	// 		"advocacy",
+	// 	],
+	// 	description:
+	// 		"They are tasked to promote the sustainable development of Berlin according to the Berlin Local Agenda 21. They implement projects to provide impetus to Berlin's sustainable growth for the future in cooperation with various other initiatives and associations.",
+	// },
 	{
 		organisation: "Bundesverband Klimaschutz e.V.",
 		branch: "Zivilgesellschaft",
@@ -592,60 +592,60 @@ export const contacts = [
 		description:
 			"The BVKS is a non-profit organization that provides a place for professional groups in climate protection and adaptation to come together and learn from each other. It also advocates for the opportunities and results of these groups at various levels, locally or nationally.",
 	},
-	{
-		organisation: "co2online",
-		branch: "",
-		range: "DE",
-		website: "https://www.co2online.de/",
-		tags: ["education", "climate change mitigation", "sensors"],
-		description:
-			"This organization supports climate protection by giving advice, consultations, and supporting tools to entities that aim to save energy while finding the appropriate funding. They also focus on modernization and construction to ensure they will not harm the environment.",
-	},
-	{
-		organisation: "350.org",
-		branch: "",
-		range: "Global",
-		website: "https://350.org/de/",
-		tags: ["advocacy", "climate change mitigation"],
-		description:
-			"The organization campaigns around the world to dismantle the influence and infrastructure of the coal, oil, and gas industries and create clean, equitable, and democratic energy systems. It also focuses on stopping the financing of fossil fuels and encouraging investments in renewable energy.",
-	},
-	{
-		organisation: "Fairbindung",
-		branch: "",
-		range: "Berlin",
-		website: "https://www.fairbindung.org/",
-		tags: ["sustainability", "education", "workshop"],
-		description:
-			"The organization focuses on sustainable business approaches and socio-ecological transformation. In addition to giving workshops and seminars on these topics, they are also involved in the coffee trade with a solidarity-based and organic approach.",
-	},
-	{
-		organisation: "FairPlanet",
-		branch: "",
-		range: "Global",
-		website: "https://www.fairplanet.org/",
-		tags: ["communication", "education"],
-		description:
-			"FairPlanet consisted of various journalists who reported on human rights, environmental justice, and SDGs. They aimed to raise awareness in the global community to create sustainable impacts and changes.",
-	},
-	{
-		organisation: "foodsharing",
-		branch: "",
-		range: "Berlin",
-		website: "https://foodsharing.de/",
-		tags: ["education", "food production", "sustainability"],
-		description:
-			'They "save" good-quality foods that are almost thrown away so that people in need can just pick them up. In addition, they campaign, talk to politicians, provide education, and organize fundraising to fight against global food waste.',
-	},
-	{
-		organisation: "Lightcycle",
-		branch: "",
-		range: "DE",
-		website: "https://www.lightcycle.de/",
-		tags: ["sustainability", "climate change mitigation"],
-		description:
-			"They collect old LED lightbulbs and ensure they are recycled in a manner that will not harm the environment.",
-	},
+	// {
+	// 	organisation: "co2online",
+	// 	branch: "",
+	// 	range: "DE",
+	// 	website: "https://www.co2online.de/",
+	// 	tags: ["education", "climate change mitigation", "sensors"],
+	// 	description:
+	// 		"This organization supports climate protection by giving advice, consultations, and supporting tools to entities that aim to save energy while finding the appropriate funding. They also focus on modernization and construction to ensure they will not harm the environment.",
+	// },
+	// {
+	// 	organisation: "350.org",
+	// 	branch: "",
+	// 	range: "Global",
+	// 	website: "https://350.org/de/",
+	// 	tags: ["advocacy", "climate change mitigation"],
+	// 	description:
+	// 		"The organization campaigns around the world to dismantle the influence and infrastructure of the coal, oil, and gas industries and create clean, equitable, and democratic energy systems. It also focuses on stopping the financing of fossil fuels and encouraging investments in renewable energy.",
+	// },
+	// {
+	// 	organisation: "Fairbindung",
+	// 	branch: "",
+	// 	range: "Berlin",
+	// 	website: "https://www.fairbindung.org/",
+	// 	tags: ["sustainability", "education", "workshop"],
+	// 	description:
+	// 		"The organization focuses on sustainable business approaches and socio-ecological transformation. In addition to giving workshops and seminars on these topics, they are also involved in the coffee trade with a solidarity-based and organic approach.",
+	// },
+	// {
+	// 	organisation: "FairPlanet",
+	// 	branch: "",
+	// 	range: "Global",
+	// 	website: "https://www.fairplanet.org/",
+	// 	tags: ["communication", "education"],
+	// 	description:
+	// 		"FairPlanet consisted of various journalists who reported on human rights, environmental justice, and SDGs. They aimed to raise awareness in the global community to create sustainable impacts and changes.",
+	// },
+	// {
+	// 	organisation: "foodsharing",
+	// 	branch: "",
+	// 	range: "Berlin",
+	// 	website: "https://foodsharing.de/",
+	// 	tags: ["education", "food production", "sustainability"],
+	// 	description:
+	// 		'They "save" good-quality foods that are almost thrown away so that people in need can just pick them up. In addition, they campaign, talk to politicians, provide education, and organize fundraising to fight against global food waste.',
+	// },
+	// {
+	// 	organisation: "Lightcycle",
+	// 	branch: "",
+	// 	range: "DE",
+	// 	website: "https://www.lightcycle.de/",
+	// 	tags: ["sustainability", "climate change mitigation"],
+	// 	description:
+	// 		"They collect old LED lightbulbs and ensure they are recycled in a manner that will not harm the environment.",
+	// },
 	{
 		organisation: "Bundesverband Solarwirtschaft e.V.",
 		branch: "Verwaltungsnahe Akteure",
@@ -655,24 +655,24 @@ export const contacts = [
 		description:
 			"The BSW's goal is to create a Germany that is no longer reliant on coal energy and promote solar thermal energy. To achieve this, they are also working to remove obstacles and market barriers in photovoltaics so that the full potential of solar thermal energy can be reached, and they partner with many other initiatives/institutions.",
 	},
-	{
-		organisation: "Stromspiegel",
-		branch: "",
-		range: "DE",
-		website: "https://www.stromspiegel.de/",
-		tags: ["climate change mitigation", "sustainability"],
-		description:
-			"This company aims to make people realize that by saving energy, they are not only saving the environment but also some economic benefits. They provide users with information about saving opportunities and consumption data from a household.",
-	},
-	{
-		organisation: "Baufachfrau Berlin e.V.",
-		branch: "",
-		range: "Berlin",
-		website: "https://www.baufachfrau-berlin.de/",
-		tags: ["climate change mitigation", "sustainability", "gender empowerment"],
-		description:
-			"This company works in the construction, planning, and design sectors, encouraging the participation of girls and women. Its projects emphasize resource conservation, reuse, and sustainability.",
-	},
+	// {
+	// 	organisation: "Stromspiegel",
+	// 	branch: "",
+	// 	range: "DE",
+	// 	website: "https://www.stromspiegel.de/",
+	// 	tags: ["climate change mitigation", "sustainability"],
+	// 	description:
+	// 		"This company aims to make people realize that by saving energy, they are not only saving the environment but also some economic benefits. They provide users with information about saving opportunities and consumption data from a household.",
+	// },
+	// {
+	// 	organisation: "Baufachfrau Berlin e.V.",
+	// 	branch: "",
+	// 	range: "Berlin",
+	// 	website: "https://www.baufachfrau-berlin.de/",
+	// 	tags: ["climate change mitigation", "sustainability", "gender empowerment"],
+	// 	description:
+	// 		"This company works in the construction, planning, and design sectors, encouraging the participation of girls and women. Its projects emphasize resource conservation, reuse, and sustainability.",
+	// },
 	{
 		organisation: "Fraunhofer ISE",
 		branch: "Wissenschaft & Forschung",
