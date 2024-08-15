@@ -8,7 +8,7 @@ export const XIcon: React.FC<{ className?: string }> = ({ className }) => {
 			height="46"
 			viewBox="0 0 46 46"
 			fill="none"
-			className={className ?? "size-8"}
+			className={className ?? "size-10"}
 		>
 			<path
 				d="M34.686 11.3135L12.0586 33.9409"
