@@ -30,9 +30,14 @@ try {
 }
 
 function getContacts(records) {
-	return records
+	const contacts = records
 		.map(toContact)
 		.filter(({ organisation }) => organisation !== "");
+
+	checkAndWarnForDuplicates(contacts);
+	checkAndWarnForEmptyFields(contacts);
+
+	return contacts;
 }
 
 function toContact(record) {
@@ -44,6 +49,38 @@ function toContact(record) {
 		tags: toTags(record["Tags"]),
 		description: record["Beschreibung (short description)"],
 	};
+}
+
+function checkAndWarnForDuplicates(contacts) {
+	contacts.forEach(({ organisation }, index) => {
+		const hasDuplicate = contacts
+			.slice(index + 1)
+			.some((contact) => contact.organisation === organisation);
+
+		if (!hasDuplicate) {
+			return;
+		}
+
+		console.warn(
+			`Warning: organisation "${organisation}" exists multiple times`,
+		);
+	});
+}
+
+function checkAndWarnForEmptyFields(contacts) {
+	const relevantFields = ["branch", "range", "website", "description"];
+
+	contacts.forEach((contact) => {
+		const emptyFields = relevantFields.filter((field) => contact[field] === "");
+
+		if (emptyFields.length === 0) {
+			return;
+		}
+
+		console.warn(
+			`Warning: organisation "${contact.organisation}" has empty field(s): ${emptyFields.join(", ")}`,
+		);
+	});
 }
 
 function toTags(tags) {
