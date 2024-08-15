@@ -1,3 +1,4 @@
+import { InfoIcon } from "./icons/info-icon";
 import { ListViewIcon } from "./icons/list-view-icon";
 
 export function Header() {
@@ -8,13 +9,26 @@ export function Header() {
 				alt="CityLAB Berlin Logo"
 				className="w-48"
 			/>
-			<a
-				href="#listView"
-				className="flex text-xs flex-col items-center pr-12 gap-2"
-			>
-				<ListViewIcon />
-				Listenansicht
-			</a>
+			<div className="flex flex-row  pr-28 gap-6">
+				<a
+					href="#listView"
+					className="flex text-xs flex-col items-center gap-2"
+				>
+					<ListViewIcon />
+					Listenansicht
+				</a>
+				<button
+					className="flex text-xs flex-col items-center gap-2"
+					onClick={() => {
+						(
+							document.getElementById("splash-screen") as HTMLDialogElement
+						).showModal();
+					}}
+				>
+					<InfoIcon />
+					Info
+				</button>
+			</div>
 		</header>
 	);
 }
