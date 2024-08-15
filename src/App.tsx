@@ -3,7 +3,7 @@ import { Footer } from "./components/footer";
 import { Tags } from "./components/tags";
 import { Dialog } from "./components/dialog";
 import { BranchArcs } from "./components/radar/branch-arcs";
-import { ContactPoints } from "./components/radar/contact-points";
+import { ContactPoints } from "./components/radar/contact-points/contact-points";
 import { BranchLegends } from "./components/radar/branch-legends";
 import { RangeLegend } from "./components/radar/range-legend";
 import { RADAR_HEIGHT, RADAR_WIDTH } from "./geometry/constants";
