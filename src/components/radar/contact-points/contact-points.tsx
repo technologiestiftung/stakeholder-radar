@@ -1,15 +1,16 @@
-import { contacts } from "../../data/contacts";
-import { branches } from "../../data/branches";
-import { ranges } from "../../data/ranges";
-import { useSelectedContactStore } from "../../stores/selected-contact-store";
-import { useSelectedTagsStore } from "../../stores/selected-tags-store";
+import { contacts } from "../../../data/contacts";
+import { branches } from "../../../data/branches";
+import { ranges } from "../../../data/ranges";
+import { useSelectedContactStore } from "../../../stores/selected-contact-store";
+import { useSelectedTagsStore } from "../../../stores/selected-tags-store";
 import {
 	anglePerSlicePercentage,
 	rangePercentageIncrement,
 	smallestRangePercentage,
-} from "../../geometry/variables";
-import { getCoordinatesForPercent } from "../../geometry/geometry";
-import { maxRadius } from "../../geometry/constants";
+} from "../../../geometry/variables";
+import { getCoordinatesForPercent } from "../../../geometry/geometry";
+import { maxRadius } from "../../../geometry/constants";
+import { ContactTooltip } from "./contact-tooltip";
 
 const POINT_RADIUS = 20;
 
@@ -25,20 +26,20 @@ export function ContactPoints() {
 		<>
 			{contactCircles.map(({ x, y, title, contactIndex }) => (
 				<div
+					className="group absolute cursor-pointer rounded-full bg-white flex justify-center"
 					key={title}
-					className="text-xs absolute drop-shadow-2xl rounded-full bg-white tooltip cursor-pointer"
 					style={{
 						top: `${y}px`,
 						left: `${x}px`,
 						width: `${POINT_RADIUS}px`,
 						height: `${POINT_RADIUS}px`,
 					}}
-					data-tip={title}
 					onClick={() => setSelectedContact(contacts[contactIndex])}
 				>
-					<div className="flex w-full h-full justify-center items-center lining-nums pb-0.5">
+					<div className="flex w-full h-full justify-center items-center lining-nums text-xs drop-shadow-2xl z-0 rounded-full cursor-pointer">
 						{contactIndex + 1}
 					</div>
+					<ContactTooltip title={title} />
 				</div>
 			))}
 		</>
