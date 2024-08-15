@@ -1,14 +1,22 @@
 import { ranges } from "../../data/ranges";
 import { RADAR_WIDTH } from "../../geometry/constants";
 
+const paddingMapping: Record<string, string> = {
+	"0": "40",
+	"1": "46.5",
+	"2": "64.5",
+	"3": "42",
+};
+
 export function RangeLegend() {
 	return (
 		<div className="absolute right-0 h-full" style={{ width: RADAR_WIDTH / 2 }}>
-			<div className="text-sm flex h-full items-center w-full -mt-5 pl-14">
+			<div className="text-sm flex h-full items-center w-full -mt-5 pl-5">
 				{ranges.map((range, index) => (
 					<span
 						key={range.name}
-						className={`${index > 0 && "pl-11"} text-sr-lighter-black`}
+						className={`text-sr-lighter-black`}
+						style={{ paddingLeft: `${paddingMapping[index]}px` }}
 					>
 						{range.name}
 					</span>
