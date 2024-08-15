@@ -39,7 +39,7 @@ export function Dialog() {
 			onClick={onDialogClick}
 		>
 			<div className="flex flex-col gap-y-5 px-10 py-9">
-				<div className="flex items-center justify-between">
+				<div className="flex flex-col md:flex-row gap-y-4 md:items-center justify-between">
 					<div className="flex items-center text-xl font-bold">
 						<span className="font-normal pr-2">{contactIndex + 1}</span>
 						{selectedContact?.organisation}
