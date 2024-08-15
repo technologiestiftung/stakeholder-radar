@@ -27,15 +27,6 @@ export const contacts = [
 			"Hauptaufgabe der Stiftung ist die politische Bildung in Deutschland (und im Ausland) zur Förderung von demokratischem Willen, gesellschaftspolitischem Engagement und globalem Bewusstsein. Sie vergibt Stipendien an Studierende und Promovierende, die sich speziell für die Bereiche der Verwirklichung einer demokratischen Einwanderungsgesellschaft sowie für die gleichberechtigte Demokratie interessieren.\n\nÜbersetzt mit DeepL.com (kostenlose Version)",
 	},
 	{
-		organisation: "Heinrich-Böll-Stiftung",
-		branch: "Zivilgesellschaft",
-		range: "DE",
-		website: "https://www.boell.de/",
-		tags: ["Förderung", "Bildung"],
-		description:
-			"Hauptaufgabe der Stiftung ist die politische Bildung in Deutschland (und im Ausland) zur Förderung von demokratischem Willen, gesellschaftspolitischem Engagement und globalem Bewusstsein. Sie vergibt Stipendien an Studierende und Promovierende, die sich speziell für die Bereiche der Verwirklichung einer demokratischen Einwanderungsgesellschaft sowie für die gleichberechtigte Demokratie interessieren.\n\nÜbersetzt mit DeepL.com (kostenlose Version)",
-	},
-	{
 		organisation: "Bits und Bäume ",
 		branch: "Zivilgesellschaft",
 		range: "Berlin",
@@ -71,15 +62,6 @@ export const contacts = [
 		description:
 			"Der B.U.N.D Berlin bietet ihren aktivistischen Mitgliedern eine Plattform für Kampagnen und Maßnahmen gegen den Klimawandel. Ihr Ziel ist es, durch die Macht des Volkes an Stärke zu gewinnen, und sie ist offen für Menschen verschiedener Altersgruppen und Berufe.",
 	},
-	// {
-	// 	organisation: "B.U.N.D. Berlin",
-	// 	branch: "Zivilgesellschaft",
-	// 	range: "Berlin",
-	// 	website: "https://www.bund-berlin.de/",
-	// 	tags: ["Klimaschutz und Klimaanpassung"],
-	// 	description:
-	// 		"Der B.U.N.D Berlin bietet ihren aktivistischen Mitgliedern eine Plattform für Kampagnen und Maßnahmen gegen den Klimawandel. Ihr Ziel ist es, durch die Macht des Volkes an Stärke zu gewinnen, und sie ist offen für Menschen verschiedener Altersgruppen und Berufe.",
-	// },
 	{
 		organisation: "Klima Neustart",
 		branch: "Zivilgesellschaft",
@@ -191,16 +173,6 @@ export const contacts = [
 			"Das Klimaschutzteam des Straßen- und Grünflächenamts ist Teil der Bezirksverwaltung und ist unter anderem für die Straßen, Parks, Spielplätze, Bäume und Plätze im Bezirk Friedrichshain-Kreuzberg zuständig.",
 	},
 	{
-		organisation: "Klimaschutzteam \nFhain-Xberg",
-		branch: "Verwaltung",
-		range: "Bezirk",
-		website:
-			"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1408194.php",
-		tags: ["Städteplanung", "Klimaschutz und Klimaanpassung"],
-		description:
-			"Das Klimaschutzteam des Straßen- und Grünflächenamts ist Teil der Bezirksverwaltung und ist unter anderem für die Straßen, Parks, Spielplätze, Bäume und Plätze im Bezirk Friedrichshain-Kreuzberg zuständig.",
-	},
-	{
 		organisation: "Straßen- und Grünflächenamt Neukölln",
 		branch: "Verwaltung",
 		range: "Bezirk",
@@ -258,16 +230,6 @@ export const contacts = [
 		description:
 			"Die Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt in Berlin ist für die Entwicklung und Umsetzung von Strategien zur Förderung nachhaltiger Mobilität und des öffentlichen Nahverkehrs verantwortlich. Sie setzt sich zudem für den Schutz der Umwelt und den Klimaschutz ein, indem sie Maßnahmen zur Reduzierung von Emissionen und zur Förderung erneuerbarer Energien initiiert.",
 	},
-	// {
-	// 	organisation:
-	// 		"Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt",
-	// 	branch: "Verwaltung",
-	// 	range: "Berlin",
-	// 	website: "https://www.berlin.de/sen/uvk/",
-	// 	tags: ["Städteplanung", "Daten"],
-	// 	description:
-	// 		"Die Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt in Berlin ist für die Entwicklung und Umsetzung von Strategien zur Förderung nachhaltiger Mobilität und des öffentlichen Nahverkehrs verantwortlich. Sie setzt sich zudem für den Schutz der Umwelt und den Klimaschutz ein, indem sie Maßnahmen zur Reduzierung von Emissionen und zur Förderung erneuerbarer Energien initiiert.",
-	// },
 	{
 		organisation: "SenMVKU",
 		branch: "Verwaltung",
@@ -286,15 +248,6 @@ export const contacts = [
 		description:
 			"Das Pflanzenschutzamt Berlin ist eine Behörde, die der Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt untergeordnet ist. Es überwacht die Einhaltung von Pflanzenschutzgesetzen und sorgt für den Schutz von Pflanzen im Stadtgebiet. Darüber hinaus kontrolliert berät es zum integrierten Pflanzenschutz und schützt das Stadtgrün vor Schaderregern​.",
 	},
-	// {
-	// 	organisation: "Pflanzenschutzamt Berlin",
-	// 	branch: "Verwaltung",
-	// 	range: "Berlin",
-	// 	website: "https://www.berlin.de/pflanzenschutzamt/",
-	// 	tags: ["Klimaschutz und Klimaanpassung", "Bildung", "Umwelttechnologie"],
-	// 	description:
-	// 		"Das Pflanzenschutzamt Berlin ist eine Behörde, die der Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt untergeordnet ist. Es überwacht die Einhaltung von Pflanzenschutzgesetzen und sorgt für den Schutz von Pflanzen im Stadtgebiet. Darüber hinaus kontrolliert berät es zum integrierten Pflanzenschutz und schützt das Stadtgrün vor Schaderregern​.",
-	// },
 	{
 		organisation: "Grün Berlin GmbH",
 		branch: "Wirtschaft",
@@ -404,16 +357,6 @@ export const contacts = [
 		description:
 			"Dr. Florian Koch is a professor in Real Estate Management and Urban Development and Smart Cities at HTW Berlin. He is the speaker of the HTW Berlin Sustainable Smart Cities research cluster, which focuses on the role of digitalization and new information and communication technologies in urban areas.",
 	},
-	// {
-	// 	organisation: "Sustainable Smart Cities HTW",
-	// 	branch: "Wissenschaft & Forschung",
-	// 	range: "Berlin",
-	// 	website:
-	// 		"https://www.htw-berlin.de/forschung/forschungsprofil/forschungscluster/cluster/?eid=32",
-	// 	tags: ["Bildung"],
-	// 	description:
-	// 		"Dr. Katja Ninnemann is a professor in Digitalization & Workspace Management and Corporate Learning Architecture at HTW Berlin. She is the speaker of the HTW Berlin Sustainable Smart Cities research cluster, which focuses on the role of digitalization and new information and communication technologies in urban areas.",
-	// },
 	{
 		organisation: "Deutscher Wetterdienst (DWD)",
 		branch: "Wissenschaft & Forschung",
@@ -477,15 +420,6 @@ export const contacts = [
 		description:
 			"Dr. Felix Creutzig is a professor and the Chair of Sustainability Economics of Human Settlements at TU Berlin and the head of the Land-use, Infrastructures, and Transport group at the Mercator Research Institute on Global Commons and Climate Change (MCC).",
 	},
-	// {
-	// 	organisation: "TU Berlin",
-	// 	branch: "Wissenschaft & Forschung",
-	// 	range: "Berlin",
-	// 	website: "http://www.santarius.de/en",
-	// 	tags: ["Bildung"],
-	// 	description:
-	// 		'Dr. Tilman Santarius is an author on digital transformation and climate policy. He is also the head of the "Digitalization and Sustainability” research group at the Technical University of Berlin and the Institute for Ecological Economy Research (IÖW).',
-	// },
 	{
 		organisation: "Hertie School",
 		branch: "Wissenschaft & Forschung",
@@ -639,19 +573,19 @@ export const contacts = [
 	// 	description:
 	// 		"FairPlanet consisted of various journalists who reported on human rights, environmental justice, and SDGs. They aimed to raise awareness in the global community to create sustainable impacts and changes.",
 	// },
-	// {
-	// 	organisation: "foodsharing",
-	// 	branch: "Zivilgesellschaft",
-	// 	range: "Berlin",
-	// 	website: "https://foodsharing.de/",
-	// 	tags: ["Bildung", "Interessenverband"],
-	// 	description:
-	// 		'They "save" good-quality foods that are almost thrown away so that people in need can just pick them up. In addition, they campaign, talk to politicians, provide Bildung, and organize fundraising to fight against global food waste.',
-	// },
+	{
+		organisation: "foodsharing",
+		branch: "Zivilgesellschaft",
+		range: "Berlin",
+		website: "https://foodsharing.de/",
+		tags: ["Bildung", "Interessenverband"],
+		description:
+			'They "save" good-quality foods that are almost thrown away so that people in need can just pick them up. In addition, they campaign, talk to politicians, provide Bildung, and organize fundraising to fight against global food waste.',
+	},
 	// {
 	// 	organisation: "Lightcycle",
 	// 	branch: "",
-	// 	range: "Deutschland     ",
+	// 	range: "DE",
 	// 	website: "https://www.lightcycle.de/",
 	// 	tags: ["Klimaschutz und Klimaanpassung"],
 	// 	description:
