@@ -1,6 +1,8 @@
 import React from "react";
 
-export const ListViewIcon: React.FC = () => {
+export const ListViewIcon: React.FC<{ className?: string }> = ({
+	className,
+}) => {
 	return (
 		<svg
 			width="58"
@@ -8,6 +10,7 @@ export const ListViewIcon: React.FC = () => {
 			viewBox="0 0 58 42"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
+			className={className ? className : "h-[42px]"}
 		>
 			<rect
 				x="1.5"

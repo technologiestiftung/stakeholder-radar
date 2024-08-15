@@ -16,11 +16,11 @@ export function App() {
 			<Header />
 
 			<main className="flex flex-col">
-				<h1 className="text-6xl font-semibold pt-14 pl-28 leading-10">
+				<h1 className="text-4xl md:text-6xl font-semibold pt-8 md:pt-14 px-6 md:px-28 leading-10">
 					Stakeholder Radar
 				</h1>
 				<div
-					className="relative self-center mt-20"
+					className="relative self-center mt-8 md:mt-20"
 					style={{ width: RADAR_WIDTH + 10, height: RADAR_HEIGHT + 10 }}
 				>
 					<svg
