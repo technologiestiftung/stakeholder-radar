@@ -6,7 +6,7 @@ import { BranchArcs } from "./components/radar/branch-arcs";
 import { ContactPoints } from "./components/radar/contact-points/contact-points";
 import { BranchLegends } from "./components/radar/branch-legends";
 import { RangeLegend } from "./components/radar/range-legend";
-import { RADAR_HEIGHT, RADAR_WIDTH } from "./geometry/constants";
+import { RADAR_HEIGHT, RADAR_WIDTH, isMobile } from "./geometry/constants";
 import { List } from "./components/list/list";
 import { SplashScreen } from "./components/splash-screen";
 
@@ -30,9 +30,9 @@ export function App() {
 						<BranchArcs />
 					</svg>
 					<div className="absolute top-0 w-full h-full">
-						<RangeLegend />
+						{!isMobile && <RangeLegend />}
 						<ContactPoints />
-						<BranchLegends />
+						{!isMobile && <BranchLegends />}
 					</div>
 				</div>
 				<Tags />

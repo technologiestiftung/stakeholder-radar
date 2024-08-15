@@ -3,7 +3,7 @@ import { ListViewIcon } from "./icons/list-view-icon";
 
 export function Header() {
 	return (
-		<header className="pt-8 md:pt-16 px-6 md:px-28 flex flex-row justify-between items-start">
+		<header className="pt-10 md:pt-16 px-6 md:px-28 flex flex-row justify-between items-start">
 			<img
 				src="https://logos.citylab-berlin.org/logo-citylab-color.svg"
 				alt="CityLAB Berlin Logo"

@@ -9,10 +9,10 @@ import {
 	smallestRangePercentage,
 } from "../../../geometry/variables";
 import { getCoordinatesForPercent } from "../../../geometry/geometry";
-import { maxRadius } from "../../../geometry/constants";
+import { maxRadius, isMobile } from "../../../geometry/constants";
 import { ContactTooltip } from "./contact-tooltip";
 
-const POINT_RADIUS = 20;
+const POINT_RADIUS = isMobile ? 16 : 20;
 
 export function ContactPoints() {
 	const { setSelectedContact } = useSelectedContactStore();
@@ -38,7 +38,7 @@ export function ContactPoints() {
 						}}
 						onClick={() => setSelectedContact(contacts[contactIndex])}
 					>
-						<div className="flex w-full h-full justify-center items-center lining-nums text-xs drop-shadow-2xl z-0 rounded-full cursor-pointer">
+						<div className="flex w-full h-full justify-center items-center lining-nums md:text-xs text-[11px] drop-shadow-2xl z-0 rounded-full cursor-pointer">
 							{contactIndex + 1}
 						</div>
 						{matchesSelectedTags && <ContactTooltip title={title} />}

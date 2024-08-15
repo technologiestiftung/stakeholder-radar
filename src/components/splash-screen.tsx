@@ -59,7 +59,7 @@ export function SplashScreen() {
 			className="w-11/12 md:w-[760px] shadow-[0px_4px_18px_0px_#B8B8B8] rounded-xl bg-white text-sr-blue-grey backdrop:backdrop-blur-sm backdrop:bg-white backdrop:bg-opacity-50"
 			onClick={onDialogClick}
 		>
-			<div className="flex flex-col p-8 md:px-12 md:py-8">
+			<div className="flex flex-col p-6 md:px-12 md:py-8">
 				<button className="flex self-end" onClick={closeDialog}>
 					<XIcon />
 				</button>
