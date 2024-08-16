@@ -2,6 +2,7 @@ import React from "react";
 import { useSelectedContactStore } from "../stores/selected-contact-store";
 import { contacts } from "../data/contacts";
 import { TagCheckbox } from "./tag-checkbox";
+import { XIcon } from "./icons/x-icon";
 
 const closeDialog = () => {
 	(document.getElementById("dialog") as HTMLDialogElement).close();
@@ -65,6 +66,12 @@ export function Dialog() {
 					Website besuchen
 				</a>
 			</div>
+			<button
+				className="absolute top-4 right-4 text-sr-blue-grey"
+				onClick={closeDialog}
+			>
+				<XIcon className="size-8" />
+			</button>
 		</dialog>
 	);
 }

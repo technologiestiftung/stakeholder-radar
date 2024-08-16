@@ -1,4 +1,4 @@
-const SMALL_RADAR = 380;
+const SMALL_RADAR = 360;
 const BIG_RADAR = 700;
 const BREAKPOINT = 768;
 
