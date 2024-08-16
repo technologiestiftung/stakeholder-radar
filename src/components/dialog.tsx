@@ -39,17 +39,13 @@ export function Dialog() {
 			onClick={onDialogClick}
 		>
 			<div className="flex flex-col gap-y-5 px-10 py-9">
-				<div className="flex flex-col md:flex-row gap-y-4 md:items-center justify-between">
-					<div className="flex items-center text-xl font-bold">
-						<span className="font-normal pr-2">{contactIndex + 1}</span>
-						{selectedContact?.organisation}
+				<div className="flex items-center justify-between">
+					<div className="flex text-xl">
+						<span className="font-normal pr-2 lining-nums -mt-0.5">
+							{contactIndex + 1}
+						</span>
+						<span className="font-bold">{selectedContact?.organisation}</span>
 					</div>
-					<a
-						href={selectedContact?.website}
-						className="font-light underline underline-offset-4"
-					>
-						Website Besuchen
-					</a>
 				</div>
 
 				<div className="flex flex-wrap gap-2">
@@ -59,6 +55,15 @@ export function Dialog() {
 				</div>
 
 				<p className="font-light">{selectedContact?.description}</p>
+
+				<a
+					href={selectedContact?.website}
+					target="_blank"
+					className="font-light underline underline-offset-4"
+					rel="noreferrer"
+				>
+					Website besuchen
+				</a>
 			</div>
 		</dialog>
 	);

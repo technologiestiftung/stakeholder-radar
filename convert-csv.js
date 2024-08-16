@@ -32,9 +32,9 @@ try {
 function getContacts(records) {
 	const contacts = records
 		.map(toContact)
-		.filter(({ organisation }) => organisation !== "");
+		.filter(({ organisation }) => organisation !== "")
+		.filter(isDuplicate);
 
-	checkAndWarnForDuplicates(contacts);
 	checkAndWarnForEmptyFields(contacts);
 
 	return contacts;
@@ -51,20 +51,12 @@ function toContact(record) {
 	};
 }
 
-function checkAndWarnForDuplicates(contacts) {
-	contacts.forEach(({ organisation }, index) => {
-		const hasDuplicate = contacts
-			.slice(index + 1)
-			.some((contact) => contact.organisation === organisation);
+function isDuplicate({ organisation }, index, contacts) {
+	const indexOfFirstOccurrence = contacts.findIndex(
+		(contact) => contact.organisation === organisation,
+	);
 
-		if (!hasDuplicate) {
-			return;
-		}
-
-		console.warn(
-			`Warning: organisation "${organisation}" exists multiple times`,
-		);
-	});
+	return index === indexOfFirstOccurrence;
 }
 
 function checkAndWarnForEmptyFields(contacts) {

@@ -38,13 +38,13 @@ export function BranchLegends() {
 						width: `${LEGEND_WIDTH}px`,
 					}}
 				>
-					<div className={`flex flex-col`}>
+					<div className={`flex flex-col gap-3`}>
 						<span
 							className={`text-xl font-semibold underline underline-offset-8 decoration-4 ${underlineColors[index]}`}
 						>
 							{branch.name}
 						</span>
-						<p className="pt-2">{branch.description}</p>
+						<p>{branch.description}</p>
 					</div>
 				</div>
 			))}
