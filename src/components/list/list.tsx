@@ -19,7 +19,7 @@ export const List: React.FC = () => {
 	return (
 		<div
 			id="listView"
-			className="flex flex-col w-full gap-12 justify-between px-12 my-12"
+			className="flex flex-col w-full gap-12 justify-between px-6 md:px-12 my-12"
 		>
 			{branches
 				.map((branch, branchIndex) => (

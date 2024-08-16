@@ -1,4 +1,6 @@
-export const InfoIcon = () => {
+import React from "react";
+
+export const InfoIcon: React.FC<{ className?: string }> = ({ className }) => {
 	return (
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -6,6 +8,7 @@ export const InfoIcon = () => {
 			height="42"
 			viewBox="0 0 42 42"
 			fill="none"
+			className={className ? className : "h-[42px]"}
 		>
 			<circle cx="21" cy="21" r="19.5" stroke="#393A60" strokeWidth="3" />
 			<path

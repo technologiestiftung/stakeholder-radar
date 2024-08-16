@@ -21,7 +21,7 @@ export function Footer() {
 	];
 
 	return (
-		<footer className="flex w-full justify-center gap-x-20 border-t-2 pt-12 mt-12 pb-16">
+		<footer className="flex flex-col md:flex-row w-full px-6 md:justify-center gap-12 md:gap-8 md:gap-x-20 border-t-2 pt-12 mt-12 pb-16">
 			{logos.map(({ alt, src, className, label }) => (
 				<div
 					key={alt}
