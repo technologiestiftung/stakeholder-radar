@@ -2,7 +2,7 @@ import React from "react";
 
 export const ContactTooltip: React.FC<{ title: string }> = ({ title }) => {
 	return (
-		<div className="group-hover:opacity-100 group-hover:flex flex-col items-center drop-shadow-lg z-[9999] -translate-y-full transition-opacity hidden opacity-0 mx-2.5 absolute">
+		<div className="group-hover:opacity-100 group-hover:flex flex-col items-center drop-shadow-lg z-[9999] -translate-y-[110%] transition-opacity hidden opacity-0 mx-2.5 absolute">
 			<div className="max-h-7 text-nowrap bg-white px-2 text-sm text-sr-lighter-black rounded">
 				{title}
 			</div>
