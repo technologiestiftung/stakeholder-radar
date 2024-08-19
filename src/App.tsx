@@ -14,7 +14,7 @@ export function App() {
 	return (
 		<div className="flex flex-col text-sr-blue-grey">
 			<Header />
-
+ 
 			<main className="flex flex-col">
 				<h1 className="text-4xl md:text-6xl font-semibold pt-8 md:pt-14 px-6 md:px-28 leading-10">
 					Stakeholder Radar
