@@ -6,6 +6,7 @@ import { contacts } from "../../data/contacts";
 import { borderColors, tagColors, iconColors } from "./list-colors";
 import { PlusIcon } from "../icons/plus-icon";
 import { MinusIcon } from "../icons/minus-icon";
+import { useSelectedContactStore } from "../../stores/selected-contact-store";
 
 const findContactsIndex = (contact: object) => {
 	return contacts.findIndex((index) => index === contact) + 1;
@@ -15,6 +16,8 @@ export const List: React.FC = () => {
 	const [isExpanded, setIsExpanded] = useState<boolean[]>(
 		branches.map(() => true),
 	);
+
+	const { setSelectedContact } = useSelectedContactStore();
 
 	return (
 		<div
@@ -65,8 +68,9 @@ export const List: React.FC = () => {
 											.map((contact, contactIndex) => (
 												<li
 													key={contact.organisation}
-													className={`font-medium border-sr-light-grey px-2 py-3 flex flex-row 
+													className={`font-medium border-sr-light-grey px-2 py-3 flex flex-row cursor-pointer
 												${contactIndex === 0 ? "border-none" : "border-t"}`}
+													onClick={() => setSelectedContact(contact)}
 												>
 													<div className="min-w-9">
 														{findContactsIndex(contact)}
