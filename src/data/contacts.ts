@@ -1,158 +1,5 @@
 export const contacts = [
 	{
-		organisation: "Stiftung Klimaneutralität",
-		branch: "Zivilgesellschaft",
-		range: "DE",
-		website: "https://www.stiftung-klima.de/de/",
-		tags: ["Klimaschutz und Klimaanpassung", "Bildung"],
-		description:
-			"Die Stiftung informiert, berät und initiiert gemeinsam mit anderen - auch internationalen - Think Tanks Debatten darüber, was für ein klimafreundliches Deutschland getan werden sollte. ",
-	},
-	{
-		organisation: "Regenwasseragentur",
-		branch: "Zivilgesellschaft",
-		range: "Berlin",
-		website: "https://regenwasseragentur.berlin/",
-		tags: ["Wasser", "Interessenverband"],
-		description:
-			"Die Agentur berät Verwaltungen, Wohnungsbaugesellschaften, Grundstückseigentümer, Planer oder Bürger über den Mehrwert, den Regenwasser bei guter Bewirtschaftung bringen kann. Sie hilft den Menschen, sich auf die Auswirkungen des Klimawandels auf die Niederschlagsmengen vorzubereiten.",
-	},
-	{
-		organisation: "Heinrich-Böll-Stiftung",
-		branch: "Zivilgesellschaft",
-		range: "DE",
-		website: "https://www.boell.de/",
-		tags: ["Förderung", "Bildung"],
-		description:
-			"Hauptaufgabe der Stiftung ist die politische Bildung in Deutschland (und im Ausland) zur Förderung von demokratischem Willen, gesellschaftspolitischem Engagement und globalem Bewusstsein. Sie vergibt Stipendien an Studierende und Promovierende, die sich speziell für die Bereiche der Verwirklichung einer demokratischen Einwanderungsgesellschaft sowie für die gleichberechtigte Demokratie interessieren.\n\nÜbersetzt mit DeepL.com (kostenlose Version)",
-	},
-	{
-		organisation: "Bits und Bäume ",
-		branch: "Zivilgesellschaft",
-		range: "Berlin",
-		website: "https://bits-und-baeume.org/",
-		tags: ["Interessenverband", "Umwelttechnologie"],
-		description:
-			"Bei dieser Initiative handelt es sich um einen Zusammenschluss von 11 Agenturen aus den Bereichen Umweltschutz, Digitalpolitik, Entwicklungspolitik und Wissenschaft, die Konferenzen über die Bedeutung politischer Veränderungen zur Förderung der Digitalisierung, die eine große Rolle für die Nachhaltigkeit spielt, veranstaltet haben.",
-	},
-	{
-		organisation: "Bürger Begehren Klimaschutz",
-		branch: "Zivilgesellschaft",
-		range: "DE",
-		website: "https://buerger-begehren-klimaschutz.de/",
-		tags: ["Interessenverband"],
-		description:
-			"Ihre Aufgabe ist es, die demokratische Beteiligung der Bürger zu fördern, um das Problem des Klimawandels zu bewältigen. Sie arbeiten auch mit lokalen Initiativen und Verwaltungen bei der Umsetzung lokaler Maßnahmen zusammen, die den Klimaschutz unterstützen könnten.",
-	},
-	{
-		organisation: "NABU Berlin",
-		branch: "Zivilgesellschaft",
-		range: "Berlin",
-		website: "https://berlin.nabu.de",
-		tags: ["Klimaschutz und Klimaanpassung", "Bildung"],
-		description:
-			"Der NABU Berlin bietet ehrenamtlichen Mitgliedern und Fachleuten die Möglichkeit, sich gemeinsam für den Naturschutz auf Kiezebene einzusetzen. Sie sind auch auf Bundesebene und in der Bildung für alle Altersgruppen aktiv.",
-	},
-	{
-		organisation: "B.U.N.D. Berlin",
-		branch: "Zivilgesellschaft",
-		range: "Berlin",
-		website: "https://www.bund-berlin.de/",
-		tags: ["Klimaschutz und Klimaanpassung"],
-		description:
-			"Der B.U.N.D Berlin bietet ihren aktivistischen Mitgliedern eine Plattform für Kampagnen und Maßnahmen gegen den Klimawandel. Ihr Ziel ist es, durch die Macht des Volkes an Stärke zu gewinnen, und sie ist offen für Menschen verschiedener Altersgruppen und Berufe.",
-	},
-	{
-		organisation: "Klima Neustart",
-		branch: "Zivilgesellschaft",
-		range: "Berlin",
-		website: "https://klimaneustart.berlin/",
-		tags: ["Interessenverband"],
-		description:
-			"Diese Initiative fördert den Austausch zwischen Bürgern, Wissenschaft und Politik, um bis 2030 ein klimaneutrales Berlin zu erreichen. Sie fordern die Politik auf, echte Klimamaßnahmen in ihr Arbeitsprogramm aufzunehmen.a",
-	},
-	{
-		organisation: "Plan B 2030",
-		branch: "Zivilgesellschaft",
-		range: "Berlin",
-		website: "https://2030planb.de/",
-		tags: ["Interessenverband", "Bildung"],
-		description:
-			"Dieses Koordinationsnetzwerk unterstützt Menschen, die ihre guten und kleinen Lösungen gegen den Klimawandel umsetzen wollen, um Teil der großen Lösung zu sein. Ihr wichtigstes Programm ist es, das Berliner Förderprogramm SolarPlus für Balkonkraftwerke unter die Leute zu bringen.",
-	},
-	{
-		organisation: "Wassertanke e.V.",
-		branch: "Zivilgesellschaft",
-		range: "Bezirk",
-		website: "https://wassertanke.org/",
-		tags: ["Wasser", "Interessenverband"],
-		description:
-			"Eine Inititative, die sich für Schwammstädte einsetzt und  Regenspeicher für Wohn- und Geschäftshäuser baut, um den Menschen die Bewässerung der städtischen Vegetation zu erleichtern. Sie helfen auch bei der Planung, der Installation und dem Betrieb der Wasserspeicher.",
-	},
-	{
-		organisation: "Grüne Liga Berlin",
-		branch: "Zivilgesellschaft",
-		range: "Berlin",
-		website: "https://www.grueneliga-berlin.de/",
-		tags: ["Grünflächen", "Interessenverband"],
-		description:
-			"Ein Verein, der aktive Natur- und Umweltschutzarbeit in und um Berlin leistet.",
-	},
-	{
-		organisation: "Lieblingsbauminitiave ",
-		branch: "Zivilgesellschaft",
-		range: "Bezirk",
-		website: "https://lieblingsbaum-initiative.de/",
-		tags: ["Grünflächen", "Interessenverband"],
-		description:
-			"Diese Initiative ist eine Plattform, auf der sich Bürger und Experten treffen, Wissen austauschen, diskutieren und handeln können, um die Stadtbäume zu pflegen und Wasser zu sparen.",
-	},
-	{
-		organisation: "Plan B",
-		branch: "Zivilgesellschaft",
-		range: "Berlin",
-		website: "https://2030planb.de/",
-		tags: ["Klimaschutz und Klimaanpassung", "Interessenverband"],
-		description:
-			"Dieses Koordinationsnetzwerk unterstützt Menschen, die ihre guten und kleinen Lösungen gegen den Klimawandel umsetzen wollen, um Teil der großen Lösung zu sein. Ihr wichtigstes Programm ist es, das Berliner Förderprogramm SolarPlus für Balkonkraftwerke unter die Leute zu bringen.",
-	},
-	{
-		organisation: "Bezirk Connect e.V.",
-		branch: "Zivilgesellschaft",
-		range: "Bezirk",
-		website: "https://www.Bezirkconnect.org",
-		tags: ["Interessenverband"],
-		description:
-			"Diese Initiative setzt sich für offene Nachbarschaftsversammlungen ein, um den Menschen die Möglichkeit zu geben, unabhängig zu sein und Lösungen für die spezifischen Probleme ihres Wohnorts zu finden. Sie helfen bei der Organisation und Moderation solcher Treffen für alle, die Teil des Viertels sind.",
-	},
-	{
-		organisation: "Bundesamt für Naturschutz",
-		branch: "Verwaltung",
-		range: "DE",
-		website: "https://www.bfn.de/",
-		tags: ["Klimaschutz und Klimaanpassung"],
-		description:
-			"Diese Bundesbehörde vollzieht das Naturschutzrecht, berät die Politik, stellt Forschungsergebnisse und Daten zu Natur und Landschaft zur Verfügung und fördert und betreut Naturschutzprojekte und Forschungsvorhaben.",
-	},
-	{
-		organisation: "Berliner Stadtreinigung",
-		branch: "Verwaltung",
-		range: "Berlin",
-		website: "https://www.bsr.de/",
-		tags: ["Abfall & Wertstoffe"],
-		description:
-			"Dieses städtische Unternehmen ist für die Reinigung der Straßen und Bürgersteige in Berlin zuständig, auch wenn diese mit Schnee bedeckt sind. Sie haben sich nachhaltigen Zielen verschrieben und stellen sogar ihren eigenen Biokraftstoff für den Antrieb ihrer Fahrzeuge aus organischen Abfällen her.",
-	},
-	{
-		organisation: "Amt für Statistik B/B",
-		branch: "Verwaltung",
-		range: "Berlin",
-		website: "https://www.statistik-berlin-brandenburg.de/",
-		tags: ["Daten", "Städteplanung"],
-		description:
-			"Diese Amt ist der offizielle Datenlieferant für die Regionen Berlin und Brandenburg. Außerdem bieten sie Planungssicherheit für Politik, Wirtschaft, Wissenschaft und Gesellschaft.",
-	},
-	{
 		organisation: "Straßen- und Grünflächenamt Fhain-Xberg",
 		branch: "Verwaltung",
 		range: "Bezirk",
@@ -181,6 +28,24 @@ export const contacts = [
 		tags: ["Städteplanung", "Klimaschutz und Klimaanpassung"],
 		description:
 			"This is the part of the local government that is responsible for the streets, parks, playgrounds, trees, squares, sports facilities, and public cemeteries in the district of Neukölln.",
+	},
+	{
+		organisation: "Berliner Stadtreinigung",
+		branch: "Verwaltung",
+		range: "Berlin",
+		website: "https://www.bsr.de/",
+		tags: ["Daten", "Städteplanung"],
+		description:
+			"Dieses städtische Unternehmen ist für die Reinigung der Straßen und Bürgersteige in Berlin zuständig, auch wenn diese mit Schnee bedeckt sind. Sie haben sich nachhaltigen Zielen verschrieben und stellen sogar ihren eigenen Biokraftstoff für den Antrieb ihrer Fahrzeuge aus organischen Abfällen her.",
+	},
+	{
+		organisation: "Amt für Statistik B/B",
+		branch: "Verwaltung",
+		range: "Berlin",
+		website: "https://www.statistik-berlin-brandenburg.de/",
+		tags: ["Daten", "Städteplanung"],
+		description:
+			"Diese Amt ist der offizielle Datenlieferant für die Regionen Berlin und Brandenburg. Außerdem bieten sie Planungssicherheit für Politik, Wirtschaft, Wissenschaft und Gesellschaft.",
 	},
 	{
 		organisation: "SenMVKU Referat \nKlimaschutz und Klimaanpassung",
@@ -231,6 +96,16 @@ export const contacts = [
 			"Die Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt in Berlin ist für die Entwicklung und Umsetzung von Strategien zur Förderung nachhaltiger Mobilität und des öffentlichen Nahverkehrs verantwortlich. Sie setzt sich zudem für den Schutz der Umwelt und den Klimaschutz ein, indem sie Maßnahmen zur Reduzierung von Emissionen und zur Förderung erneuerbarer Energien initiiert.",
 	},
 	{
+		organisation:
+			"Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt",
+		branch: "Verwaltung",
+		range: "Berlin",
+		website: "https://www.berlin.de/sen/uvk/",
+		tags: ["Städteplanung", "Daten"],
+		description:
+			"Die Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt in Berlin ist für die Entwicklung und Umsetzung von Strategien zur Förderung nachhaltiger Mobilität und des öffentlichen Nahverkehrs verantwortlich. Sie setzt sich zudem für den Schutz der Umwelt und den Klimaschutz ein, indem sie Maßnahmen zur Reduzierung von Emissionen und zur Förderung erneuerbarer Energien initiiert.",
+	},
+	{
 		organisation: "SenMVKU",
 		branch: "Verwaltung",
 		range: "Berlin",
@@ -247,6 +122,177 @@ export const contacts = [
 		tags: ["Klimaschutz und Klimaanpassung", "Bildung", "Umwelttechnologie"],
 		description:
 			"Das Pflanzenschutzamt Berlin ist eine Behörde, die der Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt untergeordnet ist. Es überwacht die Einhaltung von Pflanzenschutzgesetzen und sorgt für den Schutz von Pflanzen im Stadtgebiet. Darüber hinaus kontrolliert berät es zum integrierten Pflanzenschutz und schützt das Stadtgrün vor Schaderregern​.",
+	},
+	{
+		organisation: "Bundesamt für Naturschutz",
+		branch: "Verwaltung",
+		range: "DE",
+		website: "https://www.bfn.de/",
+		tags: ["Klimaschutz und Klimaanpassung"],
+		description:
+			"Diese Bundesbehörde vollzieht das Naturschutzrecht, berät die Politik, stellt Forschungsergebnisse und Daten zu Natur und Landschaft zur Verfügung und fördert und betreut Naturschutzprojekte und Forschungsvorhaben.",
+	},
+	{
+		organisation: "Bundesverband Solarwirtschaft e.V.",
+		branch: "Verwaltung",
+		range: "DE",
+		website: "https://www.solarwirtschaft.de/",
+		tags: ["Klimaschutz und Klimaanpassung"],
+		description:
+			"The BSW's goal is to create a Germany that is no longer reliant on coal energy and promote solar thermal energy. To achieve this, they are also working to remove obstacles and market barriers in photovoltaics so that the full potential of solar thermal energy can be reached, and they partner with many other initiatives/institutions.",
+	},
+	{
+		organisation: "Sustainable Smart Cities HTW",
+		branch: "Wissenschaft & Forschung",
+		range: "Berlin",
+		website:
+			"https://www.htw-berlin.de/forschung/forschungsprofil/forschungscluster/cluster/?eid=32",
+		tags: ["Bildung"],
+		description:
+			"Das Forschungscluster „Sustainable Smart Cities“ der HTW Berlin beschäftigt sich mit der Rolle der Digitalisierung und neuer Informations- und Kommunikationstechnologien im urbanen Raum.",
+	},
+	{
+		organisation: "TU Berlin",
+		branch: "Wissenschaft & Forschung",
+		range: "Berlin",
+		website: "https://www.mcc-berlin.net/~creutzig/",
+		tags: ["Bildung", "Klimaschutz und Klimaanpassung"],
+		description:
+			'Die Technische Universität Berlin ist die größte technische Universität in Deutschland in bietet im Bereich Umwelt und Stadtklima mehrere spezialisierte Lehrstühle an, darunter der Lehrstuhl für "Sustainability Economics of Human Settlements". Dieser Lehrstuhl befasst sich mit ökonomischen Aspekten der Nachhaltigkeit in städtischen Siedlungen und untersucht, wie menschliche Siedlungen umweltfreundlicher und zukunftsfähiger gestaltet werden können. Weitere relevante Lehrstühle sind der "Lehrstuhl für Klimatologie", sowie der "Lehrstuhl für Stadt- und Regionalplanung". ',
+	},
+	{
+		organisation: "Hertie School",
+		branch: "Wissenschaft & Forschung",
+		range: "Berlin",
+		website: "https://lynnkaack.com/",
+		tags: ["Bildung", "Klimaschutz und Klimaanpassung", "Daten"],
+		description:
+			"Die Hertie School in Berlin ist eine führende Hochschule für Governance, Public Policy und internationale Angelegenheiten. Sie bietet spezialisierte Programme und Forschung im Bereich der öffentlichen Verwaltung und des Managements an, mit einem Fokus auf Nachhaltigkeit und Stadtentwicklung. ",
+	},
+	{
+		organisation: "Zukunft Umwelt Gesellschaft",
+		branch: "Wissenschaft & Forschung",
+		range: "DE",
+		website: "https://www.z-u-g.org/",
+		tags: ["Förderung"],
+		description:
+			"Das Bundesunternehmen ist ein Projektträger in den Bereichen Umwelt-, Natur- und Klimaschutz. Sie unterstützt und finanziert strategische Projekte, die sich an den Zielen der Bundesregierung für den Umweltschutz orientieren.",
+	},
+	{
+		organisation: "Ecornet",
+		branch: "Wissenschaft & Forschung",
+		range: "DE",
+		website: "https://www.ecornet.eu/en/",
+		tags: ["Klimaschutz und Klimaanpassung"],
+		description:
+			"Acht verschiedene Umwelt- und Nachhaltigkeitsforschungseinrichtungen haben sich zum Ecornet zusammengeschlossen, um den gesellschaftlichen Wandel zur Nachhaltigkeit mitzugestalten und wissenschaftlich zu untermauern.",
+	},
+	{
+		organisation: "Climate Media Factory",
+		branch: "Wissenschaft & Forschung",
+		range: "DE",
+		website: "https://www.climatemediafactory.de/",
+		tags: ["Wissenschaftskommunikation"],
+		description:
+			"Diese Agentur bietet Beratungs- und Konzeptionsdienstleistungen an, um die Realitäten des aktuellen Klimas zu verstärken. Mit Hilfe einfallsreicher Medien versuchen sie, den Übergang zu einer kohlenstoffarmen Gesellschaft zu beschleunigen.",
+	},
+	{
+		organisation: "Deutscher Wetterdienst (DWD)",
+		branch: "Wissenschaft & Forschung",
+		range: "DE",
+		website: "https://www.dwd.de/DE/Home/home_node.html",
+		tags: ["Daten"],
+		description:
+			"Der DWD ist für die Bereitstellung von meteorologischen und klimatologischen Diensten in Deutschland zuständig, einschließlich der Herausgabe von Warnungen, Vorhersagen und Überwachung.",
+	},
+	{
+		organisation: "Unabhängiges Institut für Umweltfragen (UfU)",
+		branch: "Wissenschaft & Forschung",
+		range: "DE",
+		website: "https://www.ufu.de/",
+		tags: ["Bildung", "Klimaschutz und Klimaanpassung"],
+		description:
+			"Das UfU ist ein wissenschaftliches Institut, das sich auf die Förderung von Demokratie und Bildung im Umwelt- und Ressourcenschutz konzentriert. Es führt auch mehrere Projekte zu Klimaneutralität, Energiewende und Ressourcenschutz an akademischen Einrichtungen in Deutschland und Europa durch.",
+	},
+	{
+		organisation: "Ikem (Institut für \nKlimaschutz, Energie \nund Mobilität)",
+		branch: "Wissenschaft & Forschung",
+		range: "DE",
+		website: "https://www.ikem.de/das-institut/",
+		tags: ["Klimaschutz und Klimaanpassung", "Interessenverband"],
+		description:
+			"Ikem ist ein an die Universität Greifswald angegliedertes Forschungsinstitut, das aus den Perspektiven von Recht, Wirtschaft und Politik nach Durchbrüchen im Klimaschutz sucht.",
+	},
+	{
+		organisation: "Seneses Project (PIK)",
+		branch: "Wissenschaft & Forschung",
+		range: "DE",
+		website: "http://senses-project.org/",
+		tags: ["Klimaschutz und Klimaanpassung", "Daten"],
+		description:
+			"Das SENSES-Projekt ist ein vom PIK entwickeltes Instrumentarium zur Planung, Analyse von Szenarien im Zusammenhang mit dem Klimawandel und zur Eindämmung des Klimawandels. Ziel ist es, Daten zu visualisieren, um das Verständnis zu verbessern und Debatten und Überlegungen zu fördern.",
+	},
+	{
+		organisation: "Deutsches Klimarechenzentrum",
+		branch: "Wissenschaft & Forschung",
+		range: "DE",
+		website: "https://www.dkrz.de/de",
+		tags: [
+			"Klimaschutz und Klimaanpassung",
+			"Bildung",
+			"Wissenschaftskommunikation",
+		],
+		description:
+			"Das DKRZ ist eine nationale Serviceeinrichtung für die Klima- und Erdsystemforschung in Deutschland. Es bietet Dienstleistungen wie Klimasimulation, Dateninterpretation und -management sowie Softwareentwicklung an, um Klimaforscher bei ihrer Arbeit mit hochkomplexen Rechenmodellen zu unterstützen.",
+	},
+	{
+		organisation: "Fraunhofer ISE",
+		branch: "Wissenschaft & Forschung",
+		range: "DE",
+		website: "https://www.ise.fraunhofer.de/",
+		tags: ["Bildung", "Klimaschutz und Klimaanpassung"],
+		description:
+			"Fraunhofer ISE is the largest solar research institute in Europe. They aim to contribute to a sustainable, economical, safe, and socially just energy supply through renewable energies.",
+	},
+	{
+		organisation: "Climate Change AI",
+		branch: "Wissenschaft & Forschung",
+		range: "Global",
+		website: "https://www.climatechange.ai/",
+		tags: ["Daten", "Wissenschaftskommunikation"],
+		description:
+			"Climate Change AI ist ein Think Tank der sich aus aus Freiwilligen mit akademischen und industriellen Hintergrund zusammensetzt und den Einsatz Künstlicher Intelligenz zur Bekämpfung des Klimawandels und zur Klimaanpassung untersuchen.",
+	},
+	{
+		organisation: "Climate Change Center Berlin-Brandenburg",
+		branch: "Wissenschaft & Forschung",
+		range: "Global",
+		website: "https://climate-change.center/en/",
+		tags: ["Klimaschutz und Klimaanpassung", "Bildung"],
+		description:
+			"Das CCC ist ein interdisziplinäres Forschungszentrum, das von mehreren Universitäten im Raum Berlin-Brandenburg gegründet wurde. Ihr Ziel ist es, ihre Erkenntnisse an politische Entscheidungsträger und die Wirtschaft weiterzugeben und sich für deren wirksame Umsetzung im Hinblick auf den Klimawandel einzusetzen.",
+	},
+	{
+		organisation: "Scientists 4 Future",
+		branch: "Wissenschaft & Forschung",
+		range: "Global",
+		website: "https://de.scientists4future.org/",
+		tags: [
+			"Klimaschutz und Klimaanpassung",
+			"Bildung",
+			"Wissenschaftskommunikation",
+		],
+		description:
+			"Scientists 4 Future ist ein überparteilicher und überinstitutioneller interdisziplinärer Zusammenschluss von Wissenschaftlerinnen und Wissenschaftlern, die sich mit der Erfassung und Bewertung der aktuellen Situation der Nachhaltigkeit befassen. Sie setzen sich dafür ein, dass wissenschaftliche Erkenntnisse angemessen in die politischen Debatten einfließen und spielen eine aktive Rolle bei der Gestaltung einer nachhaltigen Zukunft.",
+	},
+	{
+		organisation: "MIT Senseable LAB",
+		branch: "Wissenschaft & Forschung",
+		range: "Global",
+		website: "https://senseable.mit.edu/",
+		tags: ["Umwelttechnologie", "Bildung", "Wissenschaftskommunikation"],
+		description:
+			"Das MIT Senseable Lab ist ein Forschungslabor, das sich auf urbane Vorstellungskraft und soziale Innovation spezialisiert hat. Es untersucht die Veränderungen in den Städten im Zeitalter der rasanten Digitalisierung und antizipiert sie durch kritische Blickwinkel.",
 	},
 	{
 		organisation: "Grün Berlin GmbH",
@@ -276,15 +322,6 @@ export const contacts = [
 			"Hortiya versucht, die Grundsätze des Wachstumsrückgangs in der Lebensmittelproduktion anzuwenden, um die Auswirkungen zu bekämpfen und den Klimawandel zu verlangsamen. Dazu „übersetzen“ sie das Verhalten der Pflanzen mit Hilfe von KI-Technologie auf den Menschen, um die Bedürfnisse der Pflanzen bestmöglich zu erfüllen.",
 	},
 	{
-		organisation: "LUP - Luftbild Umwelt Planung GmbH",
-		branch: "Wirtschaft",
-		range: "DE",
-		website: "https://www.lup-umwelt.de/en/",
-		tags: ["Umwelttechnologie"],
-		description:
-			"LUP ist ein Unternehmen, das sich auf Umweltmanagement und -überwachung durch Fernerkundung und Raumplanung spezialisiert hat. LUP ist auch aktiv an Forschungsprojekten mit Institutionen und Universitäten in ganz Europa beteiligt.",
-	},
-	{
 		organisation: "Tegel Projekt GmbH",
 		branch: "Wirtschaft",
 		range: "Berlin",
@@ -312,6 +349,15 @@ export const contacts = [
 			"Dieses Unternehmen entwickelt und vertreibt eigene Sensoren, mit denen die Nutzer den aktuellen Zustand der Bodenfeuchtigkeit im Wurzelbereich von Stadtbäumen aus der Ferne überwachen können. Dies ermöglicht eine optimale Bewässerung und spart Ressourcen.",
 	},
 	{
+		organisation: "LUP - Luftbild Umwelt Planung GmbH",
+		branch: "Wirtschaft",
+		range: "DE",
+		website: "https://www.lup-umwelt.de/en/",
+		tags: ["Umwelttechnologie"],
+		description:
+			"LUP ist ein Unternehmen, das sich auf Umweltmanagement und -überwachung durch Fernerkundung und Raumplanung spezialisiert hat. LUP ist auch aktiv an Forschungsprojekten mit Institutionen und Universitäten in ganz Europa beteiligt.",
+	},
+	{
 		organisation: "Arbor Revital",
 		branch: "Wirtschaft",
 		range: "DE",
@@ -327,146 +373,144 @@ export const contacts = [
 		website: "https://www.ansvar.com/work/klimaportal",
 		tags: ["Klimaschutz und Klimaanpassung", "Interessenverband"],
 		description:
-			"Asnvar bietet eine breite Palette von Dienstleistungen zur Bewältigung der Klimakrise an, wobei der Schwerpunkt auf Beratung, Konzeption, Umsetzung und Kampagne liegt.",
+			"Ansvar bietet spezialisierte Dienstleistungen zur Bewältigung der Klimakrise mit Fokus auf kommunale Klimaschutzprojekte. Ihr Angebot umfasst Beratung, Konzeptentwicklung, Maßnahmenumsetzung und Klimakommunikation, um Städte effektiv auf dem Weg zur Klimaneutralität zu unterstützen.",
 	},
 	{
-		organisation: "Zukunft Umwelt Gesellschaft",
-		branch: "Wissenschaft & Forschung",
+		organisation: "Future Energy Lab",
+		branch: "Wirtschaft",
 		range: "DE",
-		website: "https://www.z-u-g.org/",
-		tags: ["Förderung"],
-		description:
-			"Das Bundesunternehmen ist ein Projektträger in den Bereichen Umwelt-, Natur- und Klimaschutz. Sie unterstützt und finanziert strategische Projekte, die sich an den Zielen der Bundesregierung für den Umweltschutz orientieren.",
-	},
-	{
-		organisation: "Climate Media Factory",
-		branch: "Wissenschaft & Forschung",
-		range: "DE",
-		website: "https://www.climatemediafactory.de/",
-		tags: ["Wissenschaftskommunikation"],
-		description:
-			"Diese Agentur bietet Beratungs- und Konzeptionsdienstleistungen an, um die Realitäten des aktuellen Klimas zu verstärken. Mit Hilfe einfallsreicher Medien versuchen sie, den Übergang zu einer kohlenstoffarmen Gesellschaft zu beschleunigen.",
-	},
-	{
-		organisation: "Sustainable Smart Cities HTW",
-		branch: "Wissenschaft & Forschung",
-		range: "Berlin",
-		website:
-			"https://www.htw-berlin.de/forschung/forschungsprofil/forschungscluster/cluster/?eid=32",
-		tags: ["Bildung"],
-		description:
-			"Dr. Florian Koch is a professor in Real Estate Management and Urban Development and Smart Cities at HTW Berlin. He is the speaker of the HTW Berlin Sustainable Smart Cities research cluster, which focuses on the role of digitalization and new information and communication technologies in urban areas.",
-	},
-	{
-		organisation: "Deutscher Wetterdienst (DWD)",
-		branch: "Wissenschaft & Forschung",
-		range: "DE",
-		website: "https://www.dwd.de/DE/Home/home_node.html",
-		tags: ["Daten"],
-		description:
-			"The DWD is responsible for providing meteorological and climatological services in Germany, including issuing warnings, predicting, and monitoring.",
-	},
-	{
-		organisation: "Unabhängiges Institut für Umweltfragen (UfU)",
-		branch: "Wissenschaft & Forschung",
-		range: "DE",
-		website: "https://www.ufu.de/",
-		tags: ["Bildung", "Klimaschutz und Klimaanpassung"],
-		description:
-			"The UfU is a scientific institute that focuses on promoting democracy and Bildung in environmental and resource protection. They also run several projects about climate neutrality, energy transition, and resource protection in academic institutions throughout Germany and Europe.",
-	},
-	{
-		organisation: "Climate Change AI",
-		branch: "Wissenschaft & Forschung",
-		range: "Global",
-		website: "https://www.climatechange.ai/",
-		tags: ["Daten"],
-		description:
-			"This organization consists of volunteers from the academia and industrial fields who aim to integrate machine learning into efforts to tackle climate change.",
-	},
-	{
-		organisation: "Ecornet",
-		branch: "Wissenschaft & Forschung",
-		range: "DE",
-		website: "https://www.ecornet.eu/en/",
+		website: "https://future-energy-lab.de/",
 		tags: ["Klimaschutz und Klimaanpassung"],
 		description:
-			"Eight different environmental and sustainability research institutions joined forces and formed the Ecornet in order to help shape societal change towards sustainability and to scientifically substantiate it.",
+			"Das Future Energy Lab ist eine Innovationsplattform, die Unternehmen, insbesondere Start-ups aus den Bereichen Digitalisierung und Energie, vernetzt und Kooperationen zur Förderung der Energiewende ermöglicht. Es unterstützt die Entwicklung neuer Technologien und Geschäftsmodelle, die den Übergang zu erneuerbaren Energien vorantreiben. So trägt das Future Energy Lab aktiv zur nachhaltigen Transformation des Energiesektors bei.",
 	},
 	{
-		organisation: "Climate Change Center Berlin-Brandenburg",
-		branch: "Wissenschaft & Forschung",
+		organisation: "Climate View",
+		branch: "Wirtschaft",
 		range: "Global",
-		website: "https://climate-change.center/en/",
-		tags: ["Klimaschutz und Klimaanpassung", "Bildung"],
+		website: "https://www.climateview.global/de",
+		tags: ["Daten", "limaschutz und Klimaanpassung"],
 		description:
-			"The CCC is a center for interdisciplinary research formed by multiple universities around the Berlin-Brandenburg area. Their goal is to communicate their findings to policymakers and the business community and work to ensure their effective implementation regarding climate change.",
+			"ClimateView bietet digitale Tools und Plattformen, die Städte bei der Umsetzung ihrer Klimaziele unterstützen. Kernstück ist eine interaktive Monitoring-Plattform, die es ermöglicht, Klimadaten in Echtzeit zu verfolgen, Fortschritte zu visualisieren und die Effektivität von Maßnahmen laufend zu überprüfen. Diese Plattform fördert die Zusammenarbeit und erleichtert es Städten, ihre Klimastrategien gezielt anzupassen und zu optimieren.",
 	},
 	{
-		organisation: "Ikem (Institut für \nKlimaschutz, Energie \nund Mobilität)",
-		branch: "Wissenschaft & Forschung",
-		range: "DE",
-		website: "https://www.ikem.de/das-institut/",
+		organisation: "Wassertanke e.V.",
+		branch: "Zivilgesellschaft",
+		range: "Bezirk",
+		website: "https://wassertanke.org/",
+		tags: ["Wasser", "Interessenverband"],
+		description:
+			"Eine Inititative, die sich für Schwammstädte einsetzt und  Regenspeicher für Wohn- und Geschäftshäuser baut, um den Menschen die Bewässerung der städtischen Vegetation zu erleichtern. Sie helfen auch bei der Planung, der Installation und dem Betrieb der Wasserspeicher.",
+	},
+	{
+		organisation: "Lieblingsbauminitiave",
+		branch: "Zivilgesellschaft",
+		range: "Bezirk",
+		website: "https://lieblingsbaum-initiative.de/",
+		tags: ["Grünflächen", "Interessenverband"],
+		description:
+			"Diese Initiative ist eine Plattform, auf der sich Bürger und Experten treffen, Wissen austauschen, diskutieren und handeln können, um die Stadtbäume zu pflegen und Wasser zu sparen.",
+	},
+	{
+		organisation: "Bezirk Connect e.V.",
+		branch: "Zivilgesellschaft",
+		range: "Bezirk",
+		website: "https://www.Bezirkconnect.org",
+		tags: ["Interessenverband"],
+		description:
+			"Diese Initiative setzt sich für offene Nachbarschaftsversammlungen ein, um den Menschen die Möglichkeit zu geben, unabhängig zu sein und Lösungen für die spezifischen Probleme ihres Wohnorts zu finden. Sie helfen bei der Organisation und Moderation solcher Treffen für alle, die Teil des Viertels sind.",
+	},
+	{
+		organisation: "Grüne Liga Berlin",
+		branch: "Zivilgesellschaft",
+		range: "Berlin",
+		website: "https://www.grueneliga-berlin.de/",
+		tags: ["Grünflächen", "Interessenverband"],
+		description:
+			"Ein Verein, der aktive Natur- und Umweltschutzarbeit in und um Berlin leistet.",
+	},
+	{
+		organisation: "Plan B",
+		branch: "Zivilgesellschaft",
+		range: "Berlin",
+		website: "https://2030planb.de/",
 		tags: ["Klimaschutz und Klimaanpassung", "Interessenverband"],
 		description:
-			"Ikem is a research institute affiliated with the University of Greifswald that strives to find breakthroughs in climate protection through the perspectives of law, economics, and politics.",
+			"Dieses Koordinationsnetzwerk unterstützt Menschen, die ihre guten und kleinen Lösungen gegen den Klimawandel umsetzen wollen, um Teil der großen Lösung zu sein. Ihr wichtigstes Programm ist es, das Berliner Förderprogramm SolarPlus für Balkonkraftwerke unter die Leute zu bringen.",
 	},
 	{
-		organisation: "TU Berlin",
-		branch: "Wissenschaft & Forschung",
+		organisation: "Regenwasseragentur",
+		branch: "Zivilgesellschaft",
 		range: "Berlin",
-		website: "https://www.mcc-berlin.net/~creutzig/",
-		tags: ["Bildung", "Klimaschutz und Klimaanpassung"],
+		website: "https://regenwasseragentur.berlin/",
+		tags: ["Wasser", "Interessenverband"],
 		description:
-			"Dr. Felix Creutzig is a professor and the Chair of Sustainability Economics of Human Settlements at TU Berlin and the head of the Land-use, Infrastructures, and Transport group at the Mercator Research Institute on Global Commons and Climate Change (MCC).",
+			"Die Agentur berät Verwaltungen, Wohnungsbaugesellschaften, Grundstückseigentümer, Planer oder Bürger über den Mehrwert, den Regenwasser bei guter Bewirtschaftung bringen kann. Sie hilft den Menschen, sich auf die Auswirkungen des Klimawandels auf die Niederschlagsmengen vorzubereiten.",
 	},
 	{
-		organisation: "Hertie School",
-		branch: "Wissenschaft & Forschung",
+		organisation: "Bits und Bäume ",
+		branch: "Zivilgesellschaft",
 		range: "Berlin",
-		website: "https://lynnkaack.com/",
-		tags: ["Bildung", "Klimaschutz und Klimaanpassung", "Daten"],
+		website: "https://bits-und-baeume.org/",
+		tags: [
+			"Interessenverband",
+			"Umwelttechnologie",
+			"Wissenschaftskommunikation",
+		],
 		description:
-			"Dr. Lynn Kaack is an Assistant Professor of Computer Science and Public Policy at the Hertie School and also the co-founder of Climate Change AI. She focuses on machine learning and statistics to inform climate mitigation policy across the energy sector and on climate-related AI policy.",
+			"Bei dieser Initiative handelt es sich um einen Zusammenschluss von 11 Agenturen aus den Bereichen Umweltschutz, Digitalpolitik, Entwicklungspolitik und Wissenschaft, die Konferenzen über die Bedeutung politischer Veränderungen zur Förderung der Digitalisierung, die eine große Rolle für die Nachhaltigkeit spielt, veranstaltet haben.",
 	},
 	{
-		organisation: "MIT Senseable LAB",
-		branch: "Wissenschaft & Forschung",
-		range: "Global",
-		website: "https://senseable.mit.edu/",
-		tags: ["Umwelttechnologie", "Bildung"],
-		description:
-			"Das MIT Senseable Lab ist ein Forschungslabor, das sich auf urbane Vorstellungskraft und soziale Innovation spezialisiert hat. Es untersucht die Veränderungen in den Städten im Zeitalter der rasanten Digitalisierung und antizipiert sie durch kritische Blickwinkel.",
-	},
-	{
-		organisation: "Seneses Project (PIK)",
-		branch: "Wissenschaft & Forschung",
-		range: "DE",
-		website: "http://senses-project.org/",
-		tags: ["Klimaschutz und Klimaanpassung", "Daten"],
-		description:
-			"Das SENSES-Projekt ist ein vom PIK entwickeltes Instrumentarium zur Planung, Analyse von Szenarien im Zusammenhang mit dem Klimawandel und zur Eindämmung des Klimawandels. Ziel ist es, Daten zu visualisieren, um das Verständnis zu verbessern und Debatten und Überlegungen zu fördern.",
-	},
-	{
-		organisation: "Scientists 4 Future",
-		branch: "Wissenschaft & Forschung",
-		range: "Global",
-		website: "https://de.scientists4future.org/",
+		organisation: "NABU Berlin",
+		branch: "Zivilgesellschaft",
+		range: "Berlin",
+		website: "https://berlin.nabu.de",
 		tags: ["Klimaschutz und Klimaanpassung", "Bildung"],
 		description:
-			"Scientists 4 Future ist ein überparteilicher und überinstitutioneller interdisziplinärer Zusammenschluss von Wissenschaftlerinnen und Wissenschaftlern, die sich mit der Erfassung und Bewertung der aktuellen Situation der Nachhaltigkeit befassen. Sie setzen sich dafür ein, dass wissenschaftliche Erkenntnisse angemessen in die politischen Debatten einfließen und spielen eine aktive Rolle bei der Gestaltung einer nachhaltigen Zukunft.",
+			"Der NABU Berlin bietet ehrenamtlichen Mitgliedern und Fachleuten die Möglichkeit, sich gemeinsam für den Naturschutz auf Kiezebene einzusetzen. Sie sind auch auf Bundesebene und in der Bildung für alle Altersgruppen aktiv.",
 	},
 	{
-		organisation: "Deutsches Klimarechenzentrum",
-		branch: "Wissenschaft & Forschung",
-		range: "DE",
-		website: "https://www.dkrz.de/de",
-		tags: ["Klimaschutz und Klimaanpassung", "Bildung"],
+		organisation: "B.U.N.D. Berlin",
+		branch: "Zivilgesellschaft",
+		range: "Berlin",
+		website: "https://www.bund-berlin.de/",
+		tags: ["Klimaschutz und Klimaanpassung"],
 		description:
-			"Das DKRZ ist eine nationale Serviceeinrichtung für die Klima- und Erdsystemforschung in Deutschland. Es bietet Dienstleistungen wie Klimasimulation, Dateninterpretation und -management sowie Softwareentwicklung an, um Klimaforscher bei ihrer Arbeit mit hochkomplexen Rechenmodellen zu unterstützen.",
+			"Der B.U.N.D Berlin bietet ihren aktivistischen Mitgliedern eine Plattform für Kampagnen und Maßnahmen gegen den Klimawandel. Ihr Ziel ist es, durch die Macht des Volkes an Stärke zu gewinnen, und sie ist offen für Menschen verschiedener Altersgruppen und Berufe.",
 	},
 	{
-		organisation: "Flussbad Berlin",
+		organisation: "Berlin 21",
+		branch: "Zivilgesellschaft",
+		range: "Berlin",
+		website: "https://berlin21.net/",
+		tags: [
+			"Klimaschutz und Klimaanpassung",
+			"Städteplanung",
+			"Interessenverband",
+		],
+		description:
+			"Berlin 21 ist ein Netzwerk, das die nachhaltige Entwicklung Berlins gemäß der Berliner Lokalen Agenda 21 fördert. Die Lokale Agenda 21 ist ein Aktionsprogramm, das auf der globalen Agenda 21 basiert und darauf abzielt, ökologische, soziale und wirtschaftliche Nachhaltigkeit auf kommunaler Ebene zu fördern. Berlin 21 setzt Projekte um, die Impulse für das zukünftige nachhaltige Wachstum der Stadt geben, und arbeitet dabei eng mit verschiedenen Initiativen und Verbänden zusammen.",
+	},
+	{
+		organisation: "Klima Neustart",
+		branch: "Zivilgesellschaft",
+		range: "Berlin",
+		website: "https://klimaneustart.berlin/",
+		tags: ["Interessenverband"],
+		description:
+			"Diese Initiative fördert den Austausch zwischen Bürgern, Wissenschaft und Politik, um bis 2030 ein klimaneutrales Berlin zu erreichen. Sie fordern die Politik auf, echte Klimamaßnahmen in ihr Arbeitsprogramm aufzunehmen.a",
+	},
+	{
+		organisation: "Plan B 2030",
+		branch: "Zivilgesellschaft",
+		range: "Berlin",
+		website: "https://2030planb.de/",
+		tags: ["Interessenverband", "Bildung"],
+		description:
+			"Dieses Koordinationsnetzwerk unterstützt Menschen, die ihre guten und kleinen Lösungen gegen den Klimawandel umsetzen wollen, um Teil der großen Lösung zu sein. Ihr wichtigstes Programm ist es, das Berliner Förderprogramm SolarPlus für Balkonkraftwerke unter die Leute zu bringen.",
+	},
+	{
+		organisation: "Flussbad Berlin e.V.",
 		branch: "Zivilgesellschaft",
 		range: "Berlin",
 		website: "https://www.flussbad-berlin.de/fluss-bad-projekt",
@@ -477,154 +521,51 @@ export const contacts = [
 			"Städteplanung",
 		],
 		description:
-			"Das Projekt zielt darauf ab, neue Nutzungs- und Bademöglichkeiten für die ungenutzten Teile des Spreekanals zu finden, indem der Freizeitwert erhöht und die Wasserqualität verbessert wird, um die Widerstandsfähigkeit Berlins angesichts des Klimawandels zu erhöhen. ",
+			"Flussbad Berlin e.V. ist ein gemeinnütziges Projekt, das darauf abzielt, ungenutzte Teile des Spreekanals für neue Nutzungs- und Bademöglichkeiten zu erschließen. Durch die Verbesserung der Wasserqualität und die Steigerung des Freizeitwerts soll das Projekt die Widerstandsfähigkeit Berlins im Angesicht des Klimawandels erhöhen. Es verbindet ökologische Sanierung mit urbaner Erholung und leistet einen Beitrag zur nachhaltigen Stadtentwicklung.",
 	},
 	{
-		organisation: "Future Energy Lab",
-		branch: "Wirtschaft",
+		organisation: "Heinrich-Böll-Stiftung",
+		branch: "Zivilgesellschaft",
 		range: "DE",
-		website: "https://future-energy-lab.de/",
-		tags: ["Klimaschutz und Klimaanpassung"],
+		website: "https://www.boell.de/",
+		tags: ["Förderung", "Bildung"],
 		description:
-			"Future Energy Lab creates opportunities for different companies (especially start-ups) in the digital and energy fields to network and collaborate on projects to contribute to the transition to renewable energy sources.",
+			"Hauptaufgabe der Stiftung ist die politische Bildung in Deutschland (und im Ausland) zur Förderung von demokratischem Willen, gesellschaftspolitischem Engagement und globalem Bewusstsein. Sie vergibt Stipendien an Studierende und Promovierende, die sich speziell für die Bereiche der Verwirklichung einer demokratischen Einwanderungsgesellschaft sowie für die gleichberechtigte Demokratie interessieren.",
 	},
 	{
-		organisation: "International Climate Initiative (IKI)",
-		branch: "Verwaltungsnahe Akteure",
+		organisation: "Stiftung Klimaneutralität",
+		branch: "Zivilgesellschaft",
+		range: "DE",
+		website: "https://www.stiftung-klima.de/de/",
+		tags: ["Klimaschutz und Klimaanpassung", "Bildung"],
+		description:
+			"Die Stiftung informiert, berät und initiiert gemeinsam mit anderen - auch internationalen - Think Tanks Debatten darüber, was für ein klimafreundliches Deutschland getan werden sollte. ",
+	},
+	{
+		organisation: "Bürger Begehren Klimaschutz",
+		branch: "Zivilgesellschaft",
+		range: "DE",
+		website: "https://buerger-begehren-klimaschutz.de/",
+		tags: ["Interessenverband"],
+		description:
+			"Ihre Aufgabe ist es, die demokratische Beteiligung der Bürger zu fördern, um das Problem des Klimawandels zu bewältigen. Sie arbeiten auch mit lokalen Initiativen und Verwaltungen bei der Umsetzung lokaler Maßnahmen zusammen, die den Klimaschutz unterstützen könnten.",
+	},
+	{
+		organisation: "Internationale Klimaschutzinitiative",
+		branch: "Zivilgesellschaft",
 		range: "Global",
 		website: "https://www.international-climate-initiative.com/en/",
 		tags: ["Förderung", "Klimaschutz und Klimaanpassung"],
 		description:
-			"IKI is an initiative by the Government of Germany that funds projects worldwide in four main areas: mitigating greenhouse gas emissions, adapting to climate change, natural carbon sinks, and conserving biological diversity.",
+			"Die Internationale Klimaschutzinitiative (IKI) ist eine Initiative der deutschen Bundesregierung, die weltweit Projekte in vier zentralen Bereichen fördert: Reduktion von Treibhausgasemissionen, Anpassung an den Klimawandel, natürliche Kohlenstoffsenken und Erhalt der biologischen Vielfalt. IKI unterstützt dabei gezielt Maßnahmen, die den globalen Klimaschutz und die nachhaltige Entwicklung vorantreiben.",
 	},
 	{
 		organisation: "Cities Collaboratory",
-		branch: "Verwaltungsnahe Akteure",
+		branch: "Zivilgesellschaft",
 		range: "Global",
 		website: "https://www.citiescollaboratory.org/",
 		tags: ["Klimaschutz und Klimaanpassung"],
 		description:
-			"This institution comprises advisors and research centers from major metropolises worldwide that aim to develop principles and policies for good urban practice to create practical roadmaps for sustainable urban development. Their general secretariat is in Berlin.",
-	},
-	{
-		organisation: "GreenBuzz",
-		branch: "Zivilgesellschaft",
-		range: "Berlin",
-		website: "https://greenbuzzberlin.de/",
-		tags: ["Klimaschutz und Klimaanpassung", "Bildung", "Umwelttechnologie"],
-		description:
-			"Greenbuzz enables leaders in sustainability to network, meet, share ideas, and learn from each other. They host monthly gatherings and talks with industry leaders to foster change toward sustainability.",
-	},
-	// {
-	// 	organisation: "Berlin 21",
-	// 	branch: "",
-	// 	range: "Berlin",
-	// 	website: "https://berlin21.net/",
-	// 	tags: [
-	// 		"Klimaschutz und Klimaanpassung",
-	// 		"Städteplanung",
-	// 		"Interessenverband",
-	// 	],
-	// 	description:
-	// 		"They are tasked to promote the sustainable development of Berlin according to the Berlin Local Agenda 21. They implement projects to provide impetus to Berlin's sustainable growth for the future in cooperation with various other initiatives and associations.",
-	// },
-	{
-		organisation: "Bundesverband Klimaschutz e.V.",
-		branch: "Zivilgesellschaft",
-		range: "DE",
-		website: "https://www.bundesverband-klimaschutz.de/",
-		tags: ["Interessenverband", "Klimaschutz und Klimaanpassung"],
-		description:
-			"The BVKS is a non-profit organization that provides a place for professional groups in climate protection and adaptation to come together and learn from each other. It also advocates for the opportunities and results of these groups at various levels, locally or nationally.",
-	},
-	// {
-	// 	organisation: "co2online",
-	// 	branch: "",
-	// 	range: "DE",
-	// 	website: "https://www.co2online.de/",
-	// 	tags: ["Bildung", "Klimaschutz und Klimaanpassung", "Umwelttechnologie"],
-	// 	description:
-	// 		"This organization supports climate protection by giving advice, consultations, and supporting tools to entities that aim to save energy while finding the appropriate funding. They also focus on modernization and construction to ensure they will not harm the environment.",
-	// },
-	// {
-	// 	organisation: "350.org",
-	// 	branch: "",
-	// 	range: "Global",
-	// 	website: "https://350.org/de/",
-	// 	tags: ["Interessenverband", "Klimaschutz und Klimaanpassung"],
-	// 	description:
-	// 		"The organization campaigns around the world to dismantle the influence and infrastructure of the coal, oil, and gas industries and create clean, equitable, and democratic energy systems. It also focuses on stopping the financing of fossil fuels and encouraging investments in renewable energy.",
-	// },
-	// {
-	// 	organisation: "Fairbindung",
-	// 	branch: "",
-	// 	range: "Berlin",
-	// 	website: "https://www.fairbindung.org/",
-	// 	tags: ["Bildung", "Interessenverband"],
-	// 	description:
-	// 		"The organization focuses on sustainable business approaches and socio-ecological transformation. In addition to giving workshops and seminars on these topics, they are also involved in the coffee trade with a solidarity-based and organic approach.",
-	// },
-	// {
-	// 	organisation: "FairPlanet",
-	// 	branch: "",
-	// 	range: "Global (founded in Berlin)",
-	// 	website: "https://www.fairplanet.org/",
-	// 	tags: ["Bildung", "Interessenverband"],
-	// 	description:
-	// 		"FairPlanet consisted of various journalists who reported on human rights, environmental justice, and SDGs. They aimed to raise awareness in the global community to create sustainable impacts and changes.",
-	// },
-	{
-		organisation: "foodsharing",
-		branch: "Zivilgesellschaft",
-		range: "Berlin",
-		website: "https://foodsharing.de/",
-		tags: ["Bildung", "Interessenverband"],
-		description:
-			'They "save" good-quality foods that are almost thrown away so that people in need can just pick them up. In addition, they campaign, talk to politicians, provide Bildung, and organize fundraising to fight against global food waste.',
-	},
-	// {
-	// 	organisation: "Lightcycle",
-	// 	branch: "",
-	// 	range: "DE",
-	// 	website: "https://www.lightcycle.de/",
-	// 	tags: ["Klimaschutz und Klimaanpassung"],
-	// 	description:
-	// 		"They collect old LED lightbulbs and ensure they are recycled in a manner that will not harm the environment.",
-	// },
-	{
-		organisation: "Bundesverband Solarwirtschaft e.V.",
-		branch: "Verwaltungsnahe Akteure",
-		range: "DE",
-		website: "https://www.solarwirtschaft.de/",
-		tags: ["Klimaschutz und Klimaanpassung"],
-		description:
-			"The BSW's goal is to create a Germany that is no longer reliant on coal energy and promote solar thermal energy. To achieve this, they are also working to remove obstacles and market barriers in photovoltaics so that the full potential of solar thermal energy can be reached, and they partner with many other initiatives/institutions.",
-	},
-	// {
-	// 	organisation: "Stromspiegel",
-	// 	branch: "",
-	// 	range: "DE",
-	// 	website: "https://www.stromspiegel.de/",
-	// 	tags: ["Klimaschutz und Klimaanpassung"],
-	// 	description:
-	// 		"This company aims to make people realize that by saving energy, they are not only saving the environment but also some economic benefits. They provide users with information about saving opportunities and consumption data from a household.",
-	// },
-	// {
-	// 	organisation: "Baufachfrau Berlin e.V.",
-	// 	branch: "",
-	// 	range: "Berlin",
-	// 	website: "https://www.baufachfrau-berlin.de/",
-	// 	tags: ["Klimaschutz und Klimaanpassung"],
-	// 	description:
-	// 		"This company works in the construction, planning, and design sectors, encouraging the participation of girls and women. Its projects emphasize resource conservation, reuse, and sustainability.",
-	// },
-	{
-		organisation: "Fraunhofer ISE",
-		branch: "Wissenschaft & Forschung",
-		range: "DE",
-		website: "https://www.ise.fraunhofer.de/",
-		tags: ["Bildung", "Klimaschutz und Klimaanpassung"],
-		description:
-			"Fraunhofer ISE is the largest solar research institute in Europe. They aim to contribute to a sustainable, economical, safe, and socially just energy supply through renewable energies.",
+			"Das Cities Collaboratory ist eine Institution, die Berater und Forschungszentren aus großen Metropolen weltweit vereint, um Prinzipien und Richtlinien für gute städtische Praxis zu entwickeln. Ziel ist es, praktische Fahrpläne für eine nachhaltige Stadtentwicklung zu erstellen. Das Generalsekretariat befindet sich in Berlin.",
 	},
 ];
