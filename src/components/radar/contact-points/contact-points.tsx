@@ -27,7 +27,7 @@ export function ContactPoints() {
 			{contactCircles.map(
 				({ x, y, title, contactIndex, matchesSelectedTags }) => (
 					<div
-						className="group absolute cursor-pointer rounded-full bg-white flex justify-center"
+						className="group absolute cursor-pointer flex justify-center"
 						key={title}
 						style={{
 							top: `${y}px`,
@@ -38,8 +38,10 @@ export function ContactPoints() {
 						}}
 						onClick={() => setSelectedContact(contacts[contactIndex])}
 					>
-						<div className="flex w-full h-full justify-center items-center lining-nums md:text-xs text-[11px] drop-shadow-2xl z-0 rounded-full cursor-pointer">
-							{contactIndex + 1}
+						<div className="rounded-full bg-white flex w-full h-full transition-all duration-200 hover:scale-[120%]">
+							<div className="flex w-full h-full justify-center items-center lining-nums md:text-xs text-[11px] drop-shadow-2xl z-0 rounded-full cursor-pointer">
+								{contactIndex + 1}
+							</div>
 						</div>
 						{matchesSelectedTags && <ContactTooltip title={title} />}
 					</div>
