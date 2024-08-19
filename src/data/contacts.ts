@@ -34,7 +34,7 @@ export const contacts = [
 		branch: "Verwaltung",
 		range: "Berlin",
 		website: "https://www.bsr.de/",
-		tags: ["Abfall & Wertstoffe"],
+		tags: ["Daten", "Städteplanung"],
 		description:
 			"Dieses städtische Unternehmen ist für die Reinigung der Straßen und Bürgersteige in Berlin zuständig, auch wenn diese mit Schnee bedeckt sind. Sie haben sich nachhaltigen Zielen verschrieben und stellen sogar ihren eigenen Biokraftstoff für den Antrieb ihrer Fahrzeuge aus organischen Abfällen her.",
 	},
