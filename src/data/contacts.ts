@@ -389,7 +389,7 @@ export const contacts = [
 		branch: "Wirtschaft",
 		range: "Global",
 		website: "https://www.climateview.global/de",
-		tags: ["Daten", "limaschutz und Klimaanpassung"],
+		tags: ["Daten", "Klimaschutz und Klimaanpassung"],
 		description:
 			"ClimateView bietet digitale Tools und Plattformen, die Städte bei der Umsetzung ihrer Klimaziele unterstützen. Kernstück ist eine interaktive Monitoring-Plattform, die es ermöglicht, Klimadaten in Echtzeit zu verfolgen, Fortschritte zu visualisieren und die Effektivität von Maßnahmen laufend zu überprüfen. Diese Plattform fördert die Zusammenarbeit und erleichtert es Städten, ihre Klimastrategien gezielt anzupassen und zu optimieren.",
 	},
