@@ -96,16 +96,6 @@ export const contacts = [
 			"Die Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt in Berlin ist für die Entwicklung und Umsetzung von Strategien zur Förderung nachhaltiger Mobilität und des öffentlichen Nahverkehrs verantwortlich. Sie setzt sich zudem für den Schutz der Umwelt und den Klimaschutz ein, indem sie Maßnahmen zur Reduzierung von Emissionen und zur Förderung erneuerbarer Energien initiiert.",
 	},
 	{
-		organisation:
-			"Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt",
-		branch: "Verwaltung",
-		range: "Berlin",
-		website: "https://www.berlin.de/sen/uvk/",
-		tags: ["Städteplanung", "Daten"],
-		description:
-			"Die Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt in Berlin ist für die Entwicklung und Umsetzung von Strategien zur Förderung nachhaltiger Mobilität und des öffentlichen Nahverkehrs verantwortlich. Sie setzt sich zudem für den Schutz der Umwelt und den Klimaschutz ein, indem sie Maßnahmen zur Reduzierung von Emissionen und zur Förderung erneuerbarer Energien initiiert.",
-	},
-	{
 		organisation: "SenMVKU",
 		branch: "Verwaltung",
 		range: "Berlin",
@@ -501,15 +491,6 @@ export const contacts = [
 			"Diese Initiative fördert den Austausch zwischen Bürgern, Wissenschaft und Politik, um bis 2030 ein klimaneutrales Berlin zu erreichen. Sie fordern die Politik auf, echte Klimamaßnahmen in ihr Arbeitsprogramm aufzunehmen.a",
 	},
 	{
-		organisation: "Plan B 2030",
-		branch: "Zivilgesellschaft",
-		range: "Berlin",
-		website: "https://2030planb.de/",
-		tags: ["Interessenverband", "Bildung"],
-		description:
-			"Dieses Koordinationsnetzwerk unterstützt Menschen, die ihre guten und kleinen Lösungen gegen den Klimawandel umsetzen wollen, um Teil der großen Lösung zu sein. Ihr wichtigstes Programm ist es, das Berliner Förderprogramm SolarPlus für Balkonkraftwerke unter die Leute zu bringen.",
-	},
-	{
 		organisation: "Flussbad Berlin e.V.",
 		branch: "Zivilgesellschaft",
 		range: "Berlin",
@@ -568,4 +549,94 @@ export const contacts = [
 		description:
 			"Das Cities Collaboratory ist eine Institution, die Berater und Forschungszentren aus großen Metropolen weltweit vereint, um Prinzipien und Richtlinien für gute städtische Praxis zu entwickeln. Ziel ist es, praktische Fahrpläne für eine nachhaltige Stadtentwicklung zu erstellen. Das Generalsekretariat befindet sich in Berlin.",
 	},
+	// {
+	// 	organisation: "Bundesverband Klimaschutz e.V.",
+	// 	branch: "Zivilgesellschaft",
+	// 	range: "DE",
+	// 	website: "https://www.bundesverband-klimaschutz.de/",
+	// 	tags: ["Interessenverband", "Klimaschutz und Klimaanpassung"],
+	// 	description:
+	// 		"Der Bundesverband Klimaschutz e.V. (BVKS) ist eine gemeinnützige Organisation, die Fachgruppen im Bereich Klimaschutz und Anpassung eine Plattform bietet, um sich auszutauschen und voneinander zu lernen. Zudem setzt sich der BVKS dafür ein, die Chancen und Ergebnisse dieser Gruppen auf verschiedenen Ebenen, sowohl lokal als auch national, zu vertreten und zu fördern.",
+	// },
+	// {
+	// 	organisation: "GreenBuzz",
+	// 	branch: "Zivilgesellschaft",
+	// 	range: "Berlin",
+	// 	website: "https://greenbuzzberlin.de/",
+	// 	tags: ["Klimaschutz und Klimaanpassung", "Bildung", "Umwelttechnologie"],
+	// 	description:
+	// 		"GreenBuzz ist eine Plattform, die Führungskräfte im Bereich Nachhaltigkeit zusammenbringt, um sich zu vernetzen, Ideen auszutauschen und voneinander zu lernen. Sie organisieren monatliche Treffen und Vorträge mit Branchenführern, um den Wandel hin zu mehr Nachhaltigkeit zu fördern.",
+	// },
+	// {
+	// 	organisation: "foodsharing",
+	// 	branch: "Zivilgesellschaft",
+	// 	range: "Berlin",
+	// 	website: "https://foodsharing.de/",
+	// 	tags: ["Bildung", "Interessenverband"],
+	// 	description:
+	// 		'They "save" good-quality foods that are almost thrown away so that people in need can just pick them up. In addition, they campaign, talk to politicians, provide Bildung, and organize fundraising to fight against global food waste.',
+	// },
+	// {
+	// 	organisation: "co2online",
+	// 	branch: "",
+	// 	range: "DE",
+	// 	website: "https://www.co2online.de/",
+	// 	tags: ["Bildung", "Klimaschutz und Klimaanpassung", "Umwelttechnologie"],
+	// 	description:
+	// 		"This organization supports climate protection by giving advice, consultations, and supporting tools to entities that aim to save energy while finding the appropriate funding. They also focus on modernization and construction to ensure they will not harm the environment.",
+	// },
+	// {
+	// 	organisation: "350.org",
+	// 	branch: "",
+	// 	range: "Global",
+	// 	website: "https://350.org/de/",
+	// 	tags: ["Interessenverband", "Klimaschutz und Klimaanpassung"],
+	// 	description:
+	// 		"The organization campaigns around the world to dismantle the influence and infrastructure of the coal, oil, and gas industries and create clean, equitable, and democratic energy systems. It also focuses on stopping the financing of fossil fuels and encouraging investments in renewable energy.",
+	// },
+	// {
+	// 	organisation: "Fairbindung",
+	// 	branch: "",
+	// 	range: "Berlin",
+	// 	website: "https://www.fairbindung.org/",
+	// 	tags: ["Bildung", "Interessenverband"],
+	// 	description:
+	// 		"The organization focuses on sustainable business approaches and socio-ecological transformation. In addition to giving workshops and seminars on these topics, they are also involved in the coffee trade with a solidarity-based and organic approach.",
+	// },
+	// {
+	// 	organisation: "FairPlanet",
+	// 	branch: "",
+	// 	range: "Global",
+	// 	website: "https://www.fairplanet.org/",
+	// 	tags: ["Bildung", "Interessenverband"],
+	// 	description:
+	// 		"FairPlanet consisted of various journalists who reported on human rights, environmental justice, and SDGs. They aimed to raise awareness in the global community to create sustainable impacts and changes.",
+	// },
+	// {
+	// 	organisation: "Lightcycle",
+	// 	branch: "",
+	// 	range: "DE",
+	// 	website: "https://www.lightcycle.de/",
+	// 	tags: ["Klimaschutz und Klimaanpassung"],
+	// 	description:
+	// 		"They collect old LED lightbulbs and ensure they are recycled in a manner that will not harm the environment.",
+	// },
+	// {
+	// 	organisation: "Stromspiegel",
+	// 	branch: "",
+	// 	range: "DE",
+	// 	website: "https://www.stromspiegel.de/",
+	// 	tags: ["Klimaschutz und Klimaanpassung"],
+	// 	description:
+	// 		"This company aims to make people realize that by saving energy, they are not only saving the environment but also some economic benefits. They provide users with information about saving opportunities and consumption data from a household.",
+	// },
+	// {
+	// 	organisation: "Baufachfrau Berlin e.V.",
+	// 	branch: "",
+	// 	range: "Berlin",
+	// 	website: "https://www.baufachfrau-berlin.de/",
+	// 	tags: ["Klimaschutz und Klimaanpassung"],
+	// 	description:
+	// 		"This company works in the construction, planning, and design sectors, encouraging the participation of girls and women. Its projects emphasize resource conservation, reuse, and sustainability.",
+	// },
 ];

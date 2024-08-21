@@ -44,7 +44,7 @@ function toContact(record) {
 	return {
 		organisation: record["﻿Organisation"],
 		branch: record["Branche"],
-		range: record["Wirkungsgrad"],
+		range: toShortName(record["Wirkungsgrad"]),
 		website: record["Website"],
 		tags: toTags(record["Tags"]),
 		description: record["Beschreibung (short description)"],
@@ -75,6 +75,14 @@ function checkAndWarnForEmptyFields(contacts) {
 	});
 }
 
+function toShortName(recordElement) {
+	if (recordElement === "Deutschland") {
+		return "DE";
+	}
+
+	return recordElement;
+}
+
 function toTags(tags) {
 	return tags
 		.split(",")
@@ -96,7 +104,8 @@ function getRanges(contacts) {
 	const sanitizedUniqueRanges = [
 		...new Set(contacts.map(({ range }) => range.trim())),
 	];
-	return sanitizedUniqueRanges.map((range) => ({
+
+	return sanitizedUniqueRanges.map(toShortName).map((range) => ({
 		name: range,
 	}));
 }
