@@ -7,7 +7,7 @@ export const contacts = [
 			"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/",
 		tags: ["Städteplanung", "Klimaschutz und Klimaanpassung"],
 		description:
-			"Das Straßen- und Grünflächenamt ist Teil der Bezirksverwaltung und ist unter anderem für die Straßen, Parks, Spielplätze, Bäume und Plätze im Bezirk Friedrichshain-Kreuzberg zuständig.",
+			"Das Straßen- und Grünflächenamt Friedrichshain-Kreuzberg ist zuständig für die Verwaltung und Pflege öffentlicher Straßen, Wege, Plätze sowie geschützter Grünanlagen. Dazu gehören auch die Straßen- und Parkbäume, öffentliche Spielplätze, Sportanlagen und landeseigene Friedhöfe. Das Amt ist in verschiedene Fachbereiche unterteilt, darunter Tiefbau und Grünflächen, die jeweils spezifische Aufgaben und Zuständigkeiten übernehmen, wie etwa die Straßenunterhaltung, Neubauprojekte oder die Pflege von Grünflächen und Parkanlagen​.",
 	},
 	{
 		organisation: "Klimaschutzteam \nFhain-Xberg",
@@ -17,7 +17,7 @@ export const contacts = [
 			"https://www.berlin.de/ba-friedrichshain-kreuzberg/politik-und-verwaltung/service-und-organisationseinheiten/klima-und-internationales/artikel.1408194.php",
 		tags: ["Städteplanung", "Klimaschutz und Klimaanpassung"],
 		description:
-			"Das Klimaschutzteam des Straßen- und Grünflächenamts ist Teil der Bezirksverwaltung und ist unter anderem für die Straßen, Parks, Spielplätze, Bäume und Plätze im Bezirk Friedrichshain-Kreuzberg zuständig.",
+			'Das Klimaschutzteam des Bezirksamts Friedrichshain-Kreuzberg, Teil der Organisationseinheit "Klima und Internationales", ist verantwortlich für die Entwicklung und Umsetzung von Klimaschutz- und Klimaanpassungskonzepten im Bezirk. Das Team besteht aus vier Mitgliedern, darunter Klimaschutzmanagerinnen und ein Klimaschutzbeauftragter. Ihre Aufgaben umfassen die Erstellung eines umfassenden Klimaschutzkonzepts, die Priorisierung von Maßnahmen zur CO2-Reduktion und die Vernetzung mit anderen Bezirken und internationalen Partnern. Diese Stellen werden teilweise durch bundesweite Förderprogramme unterstützt',
 	},
 	{
 		organisation: "Straßen- und Grünflächenamt Neukölln",
@@ -27,7 +27,7 @@ export const contacts = [
 			"https://www.berlin.de/ba-neukoelln/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/",
 		tags: ["Städteplanung", "Klimaschutz und Klimaanpassung"],
 		description:
-			"This is the part of the local government that is responsible for the streets, parks, playgrounds, trees, squares, sports facilities, and public cemeteries in the district of Neukölln.",
+			"Das Straßen- und Grünflächenamt Neukölln ist zuständig für die Verwaltung und Pflege öffentlicher Straßen, Wege, Plätze sowie geschützter Grünanlagen im Bezirk Neukölln. Dazu gehören auch die Straßen- und Parkbäume, öffentliche Spielplätze, Sportanlagen und landeseigene Friedhöfe. Das Amt ist in verschiedene Fachbereiche unterteilt, darunter Tiefbau und Grünflächen, die jeweils spezifische Aufgaben und Zuständigkeiten übernehmen, wie etwa die Straßenunterhaltung, Neubauprojekte oder die Pflege von Grünflächen und Parkanlagen​.",
 	},
 	{
 		organisation: "Berliner Stadtreinigung",
@@ -39,13 +39,13 @@ export const contacts = [
 			"Dieses städtische Unternehmen ist für die Reinigung der Straßen und Bürgersteige in Berlin zuständig, auch wenn diese mit Schnee bedeckt sind. Sie haben sich nachhaltigen Zielen verschrieben und stellen sogar ihren eigenen Biokraftstoff für den Antrieb ihrer Fahrzeuge aus organischen Abfällen her.",
 	},
 	{
-		organisation: "Amt für Statistik B/B",
+		organisation: " Amt für Statistik Berlin-Brandenburg",
 		branch: "Verwaltung",
 		range: "Berlin",
 		website: "https://www.statistik-berlin-brandenburg.de/",
 		tags: ["Daten", "Städteplanung"],
 		description:
-			"Diese Amt ist der offizielle Datenlieferant für die Regionen Berlin und Brandenburg. Außerdem bieten sie Planungssicherheit für Politik, Wirtschaft, Wissenschaft und Gesellschaft.",
+			"Das Amt für Statistik Berlin-Brandenburg ist die zentrale Anlaufstelle für statistische Daten und Analysen, die die Entwicklungen in Berlin und Brandenburg dokumentieren und analysieren. Es veröffentlicht umfassende Berichte und Datensätze, die wichtige Einblicke in demografische, wirtschaftliche, soziale und umweltbezogene Trends der Region wie bspw. Bevölkerungsprognosen bieten. Das Amt unterstützt politische Entscheidungsträger, Unternehmen und die Öffentlichkeit, indem es verlässliche und aktuelle Daten bereitstellt, die für die Planung und Bewertung von städtepolitischen Maßnahmen entscheidend sind.",
 	},
 	{
 		organisation: "SenMVKU Referat \nKlimaschutz und Klimaanpassung",
@@ -54,7 +54,7 @@ export const contacts = [
 		website: "https://www.berlin.de/sen/uvk/klimaschutz/",
 		tags: ["Städteplanung", "Klimaschutz und Klimaanpassung"],
 		description:
-			"Beate Züchner is the head of the Department of Klimatschutz und Klimaanpassung under the Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt.",
+			"Das Referat Klimaschutz und Klimaanpassung der Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt (SenMVKU) in Berlin ist für die Entwicklung und Umsetzung von Maßnahmen zuständig, die den Klimaschutz und die Anpassung an den Klimawandel in der Stadt fördern. Es koordiniert die Umsetzung des Berliner Energie- und Klimaschutzprogramms (BEK 2030) und arbeitet an Strategien, um die Klimaneutralität Berlins bis 2045 zu erreichen. Das Referat entwickelt auch Anpassungsstrategien, um die Stadt widerstandsfähiger gegenüber den Auswirkungen des Klimawandels zu machen.",
 	},
 	{
 		organisation: "Umweltatlasteam – SenStadt",
@@ -63,7 +63,7 @@ export const contacts = [
 		website: "https://www.berlin.de/umweltatlas/",
 		tags: ["Städteplanung", "Daten"],
 		description:
-			"The Environmental Atlas of Berlin collects environmental data from various responsible departments, provides spatial bases for overarching planning, and informs the public about the current state of natural resources.",
+			"Das Umweltatlasteam der Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen (SenStadt) in Berlin ist verantwortlich für die Erstellung und Pflege des Umweltatlas Berlin. Der Umweltatlas ist ein umfassendes digitales Kartenwerk, das detaillierte Informationen über die Umweltsituation in Berlin bietet. Dazu gehören Themen wie Boden, Wasser, Luft, Klima, Biotope, Flächennutzung, Verkehr, Lärm und Energie. Das Team arbeitet daran, diese Daten regelmäßig zu aktualisieren und öffentlich zugänglich zu machen, um eine fundierte Basis für umweltbezogene Planungen und Entscheidungen zu bieten.",
 	},
 	{
 		organisation: "Energieatlasteam – SenWEB ",
@@ -73,7 +73,7 @@ export const contacts = [
 			"https://www.berlin.de/sen/energie/energiepolitik/energieatlas-berlin/",
 		tags: ["Städteplanung", "Daten"],
 		description:
-			"The Energieatlas provides information on the current use and generation of energy in Berlin. It will help policymakers and planners in decision-making regarding climate protection.",
+			"Das Energieatlasteam der Senatsverwaltung für Wirtschaft, Energie und Betriebe (SenWEB) erstellt und pflegt den Energieatlas Berlin, ein digitales Tool, das umfangreiche Daten zur Energieversorgung und -nutzung in Berlin bereitstellt. Er visualisiert den aktuellen Stand der Energieinfrastruktur Berlins und ermöglicht es Bürgern, Unternehmen und der Verwaltung, diese Daten für Planungs- und Entscheidungsprozesse zu nutzen und unterstützt damit die Umsetzung der Berliner Energie- und Klimaschutzpolitik.",
 	},
 	{
 		organisation:
@@ -83,7 +83,7 @@ export const contacts = [
 		website: "https://www.berlin.de/sen/uvk/",
 		tags: ["Städteplanung", "Klimaschutz und Klimaanpassung"],
 		description:
-			"Jens Kendzia is the head of the Arbeitsgruppe Grundsatzfragen des Klimaschutzes, Internat. Klimaschutz, Klimaschutzrecht under the Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt.",
+			"Die Ressortübergreifende Klimagruppe der Berliner Senatskanzlei ist ein zentrales Steuerungsgremium, das die Klimaschutzaktivitäten der Stadt koordiniert. Es vereint die Senatsverwaltungen für Umwelt, Mobilität, Verbraucher- und Klimaschutz (SenUMBK), Wirtschaft, Energie und Betriebe (SenWEB) sowie die Senatskanzlei. Die Gruppe hat die Aufgabe, die Einhaltung der Berliner Klimaziele sicherzustellen, ressortübergreifende Zielkonflikte zu lösen und die Umsetzung notwendiger Maßnahmen zur Erreichung der Klimaneutralität in Berlin zu beschleunigen​. Ein Beispiel für ihre Arbeit  ist die Entwicklung und Umsetzung des Berliner Energie- und Klimaschutzprogramms 2030 (BEK 2030).",
 	},
 	{
 		organisation:
@@ -139,7 +139,7 @@ export const contacts = [
 			"https://www.htw-berlin.de/forschung/forschungsprofil/forschungscluster/cluster/?eid=32",
 		tags: ["Bildung"],
 		description:
-			"Das Forschungscluster „Sustainable Smart Cities“ der HTW Berlin beschäftigt sich mit der Rolle der Digitalisierung und neuer Informations- und Kommunikationstechnologien im urbanen Raum.",
+			"Das Forschungscluster „Sustainable Smart Cities“ der HTW Berlin erforscht die Rolle der Digitalisierung und neuer Technologien im urbanen Raum, um innovative Lösungen für städtische Herausforderungen zu entwickeln. Es vereint interdisziplinäre Expertise und fördert die Zusammenarbeit zwischen Wissenschaft, Wirtschaft, Politik und Gesellschaft​",
 	},
 	{
 		organisation: "TU Berlin",
@@ -193,7 +193,7 @@ export const contacts = [
 		website: "https://www.dwd.de/DE/Home/home_node.html",
 		tags: ["Daten"],
 		description:
-			"Der DWD ist für die Bereitstellung von meteorologischen und klimatologischen Diensten in Deutschland zuständig, einschließlich der Herausgabe von Warnungen, Vorhersagen und Überwachung.",
+			"Der Deutsche Wetterdienst (DWD) ist die nationale meteorologische Behörde Deutschlands und eine Bundesoberbehörde im Geschäftsbereich des Bundesministeriums für Digitales und Verkehr. Der DWD bietet umfassende Wetter- und Klimadaten sowie Vorhersagen und Unwetterwarnungen für die Öffentlichkeit und verschiedene Fachbereiche, darunter auch für den Klimaschutz und die Wissenschaft.",
 	},
 	{
 		organisation: "Unabhängiges Institut für Umweltfragen (UfU)",
