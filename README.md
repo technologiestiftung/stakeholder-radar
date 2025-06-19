@@ -13,23 +13,26 @@ Stakeholders are relevant organisations identified by our team to be important f
 
 ## Prerequisites
 
-tbd...
+Fill in your data to 
+- branches.ts (sectors of the radar)
+- contacts.ts (single entries to the radar)
+- ranges.ts (ring level on the radar from inside to outside)
 
 ## Installation
 
-tbd...
+```
+npm ci
+```
+Run development server:
+```
+npm run dev
+```
+Open http://localhost:5173 with your browser to see the application running.
 
-## Usage or Deployment
-
-tbd...
 
 ## Development
 
-tbd...
-
-## Tests
-
-tbd...
+You can deploy and run the stakeholer radat on the platform of your choice. We use vercel.com, you can follow their step-by-step guides to deploy your version.
 
 ## Contributing
 
