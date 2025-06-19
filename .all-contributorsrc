@@ -1,5 +1,5 @@
 {
-  "projectName": "template-default",
+  "projectName": "stakeholder-radar",
   "projectOwner": "technologiestiftung",
   "repoType": "github",
   "repoHost": "https://github.com",
@@ -18,8 +18,19 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "julizet",
+      "name": "Julia Zet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52455010?v=4",
+      "profile": "https://github.com/julizet",
+      "contributions": [
+        "projectManagement",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "skipCi": true
+  "skipCi": true,
+  "commitType": "docs"
 }
