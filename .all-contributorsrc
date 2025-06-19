@@ -1,5 +1,5 @@
 {
-  "projectName": "template-default",
+  "projectName": "stakeholder-radar",
   "projectOwner": "technologiestiftung",
   "repoType": "github",
   "repoHost": "https://github.com",
@@ -18,8 +18,18 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "aeschi",
+      "name": "aeschi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56318362?v=4",
+      "profile": "http://annaeschenbacher.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "skipCi": true
+  "skipCi": true,
+  "commitType": "docs"
 }
